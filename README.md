@@ -1,0 +1,2 @@
+# TIL
+Zettelkasten style notes
