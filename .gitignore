@@ -9,6 +9,14 @@
 *.user
 *.userosscache
 *.sln.docstates
+settings.json
+
+## Ignore intelliJ temporary files, build results and configuration files.
+
+*.iml
+misc.xml
+modules.xml
+vcs.xml
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
