@@ -71,9 +71,7 @@ firewall-cmd --reload
 
 
 ## <font color="red"><ins>[Use Documentation First!](https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)</ins></font>
-> :warning: See [Documentation]((https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)) for all current details. This page is meant to be a quick reference. This page may be out of date and is not intended to replace documentation.
-
-<br></br>
+:warning: **See [Documentation]((https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)) for all current details.** <br>This page is meant to be used as a quick reference.<br>This page may be out of date and is not intended to replace IG's documentation.<br>
 
 | OS     | Release |
 |---     |---      |
