@@ -24,7 +24,10 @@ network.cookie.sameSite.schemeful:  false
 *****
 ## Firewall
 <details><summary>Open a port</summary>
-To make changes to the firewall daemon via the cli, `firewall-cmd` is to be used. The following code block will allow tomcat webapps 
+
+### **RHEL 7 & 8**
+
+Use the `firewall-cmd` interface to modify the firewall via the bash terminal. The following code block will allow tomcat webapps through the firewall, if using tomcat's default port.
 
 ```bash
 # Open port 8080
