@@ -1,7 +1,9 @@
-# TIL
+# TIL 
 ###### Zettelkasten style notes
 
-*****
+# Topics
+- [Firefox](#Firefox)
+- [Firewall](#Firewall)
 ## Firefox
 <details><summary>Allow HTTP Sites</summary>
 
@@ -19,8 +21,6 @@ network.cookie.sameSite.schemeful:  false
 
 </details>
 
-
-<a name="Firewall"></a>
 *****
 ## Firewall
 <details><summary>Open a port</summary>
@@ -37,4 +37,5 @@ firewall-cmd --reload
 ```
 </details>
 
+*****
 
