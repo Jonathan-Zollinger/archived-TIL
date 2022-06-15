@@ -16,12 +16,12 @@
 <ul>
 <details><summary>Download</summary>
 
- Version | Download|   |
- ---     |---      |---
- 9.2.1 | [Windows](http://prvbuilder02.provo.novell.com/artifacts/edir/921/eDirectory_921_Windows_x86_64.exe) | [Linux](http://prvbuilder02.provo.novell.com/artifacts/edir/921/eDirectory_921_Linux_x86_64.tar.gz)
- 9.2.5    | [Windows](http://prvbuilder02.provo.novell.com/artifacts/edir/925/eDirectory_925_Windows_x86_64.exe) | [Linux](http://prvbuilder02.provo.novell.com/artifacts/edir/925/eDirectory_925_Linux_x86_64.tar.gz) 
+| Version | Download                                                                                             |                                                                                                     |
+|---------|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 9.2.1   | [Windows](http://prvbuilder02.provo.novell.com/artifacts/edir/921/eDirectory_921_Windows_x86_64.exe) | [Linux](http://prvbuilder02.provo.novell.com/artifacts/edir/921/eDirectory_921_Linux_x86_64.tar.gz) |
+| 9.2.5   | [Windows](http://prvbuilder02.provo.novell.com/artifacts/edir/925/eDirectory_925_Windows_x86_64.exe) | [Linux](http://prvbuilder02.provo.novell.com/artifacts/edir/925/eDirectory_925_Linux_x86_64.tar.gz) |
 
- > :bulb: More eDir downloads (including some md5 versions) are available from the [provo's artifactory](http://prvbuilder02.provo.novell.com/artifacts/edir/).
+> :bulb: More eDir downloads (including some md5 versions) are available from the [provo's artifactory](http://prvbuilder02.provo.novell.com/artifacts/edir/).
 
 </details>
 </ul>
@@ -72,12 +72,12 @@ firewall-cmd --reload
 
 *****
 
-## <font color="red"><ins>[Read the documentation first!](https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)</ins></font>
-:warning: **See [Documentation]((https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)) for all current details.** <br>This page is meant to be used as a quick reference.<br>This page may be out of date and is not intended to replace IG's documentation.<br>
+### <font color="red"><ins>[Read the documentation first!](https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)</ins></font>
+> :warning: **See [Documentation]((https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)) for all current details.** <br>This page is meant to be used as a quick reference.<br>This page may be out of date and is not intended to replace IG's documentation.<br>
 
-| OS     | Release |
-|---     |---      |
-|Red Hat | <ul><li>8.3 (64-bit)</li><li>Later patched versions of 8.x</li></ul>
+| OS      | Release                                                              |
+|---------|----------------------------------------------------------------------|
+| Red Hat | <ul><li>8.3 (64-bit)</li><li>Later patched versions of 8.x</li></ul> |
 
 | LDAP      | Release |
 |---        |---      |
@@ -86,11 +86,10 @@ firewall-cmd --reload
 
 <details><summary>Silent Install</summary>
 
-## <font color="red"><ins>[Read the documentation first!](https://www.microfocus.com/documentation/identity-governance/3.7/install-guide/b19v78jo.html)</ins></font>
-:warning: **See [Documentation]((https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)) for all current details.** <br>This page is meant to be used as a quick reference.<br>This page may be out of date and is not intended to replace IG's documentation.<br>
+### <font color="red"><ins>[Read the documentation first!](https://www.microfocus.com/documentation/identity-governance/3.7/install-guide/b19v78jo.html)</ins></font>
+> :warning: **See [Documentation]((https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)) for all current details.** <br>This page is meant to be used as a quick reference.<br>This page may be out of date and is not intended to replace IG's documentation.<br>
 *****
-<br>
-
+</details>
 </ul>
 
 *****
