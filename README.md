@@ -7,7 +7,7 @@
 
 1. Open [`about:config`](/images/Firefox%3Babout-config.png) in Firefox. 
     - ##### *You may be prompted to accept the risk of changing firefox configration.* 
-2. [Search for and change](/images/Firefox%3Babout-config%3Bchanging_properties.gif) the following properties `false` 
+2. [Search for and set](/images/Firefox%3Babout-config%3Bchanging_properties.gif) the following properties to `false` 
 ```
 network.cookie.sameSite.laxByDefault:  false
 network.cookie.sameSite.noneRequiresSecure:  false
