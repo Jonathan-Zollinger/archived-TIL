@@ -6,7 +6,7 @@
 <details><summary>Allow HTTP Sites</summary>
 
 1. Open [`about:config`](/images/Firefox%3Babout-config.png) in Firefox. 
-    - ##### *You may be prompted to accept the risk of changing firefox configration.* 
+    - ##### *You may be prompted to accept the risk of changing firefox configuration.* 
 2. [Search for and set](/images/Firefox%3Babout-config%3Bchanging_properties.gif) the following properties to `false` 
 ```
 network.cookie.sameSite.laxByDefault:  false
