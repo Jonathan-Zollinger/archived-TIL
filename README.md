@@ -2,7 +2,6 @@
 <ul>
 
 [by making this an unordered list w/ no items, this is a work-around for indenting this section.]: #
-
 ##### Today I Learned &nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp; Zettelkasen style notes
 </ul>
 
@@ -10,6 +9,8 @@
 - [eDirectory](#eDirectory)
 - [Firefox](#Firefox)
 - [Firewall](#Firewall)
+- [IG Install](#IG Installation)
+- [Postgres](#Postgres)
 
 ## eDirectory
 <ul>
@@ -71,7 +72,31 @@ firewall-cmd --reload
 
 *****
 
+## <font color="red"><ins>[Read the documentation first!](https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)</ins></font>
+:warning: **See [Documentation]((https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)) for all current details.** <br>This page is meant to be used as a quick reference.<br>This page may be out of date and is not intended to replace IG's documentation.<br>
+
+| OS     | Release |
+|---     |---      |
+|Red Hat | <ul><li>8.3 (64-bit)</li><li>Later patched versions of 8.x</li></ul>
+
+| LDAP      | Release |
+|---        |---      |
+|[eDirectory](#eDirectory) | <ul><li>9.2</li><li>Later patched versions of 9.<font color="red">2</font>.x</li></ul> |
+</details>
+
+<details><summary>Silent Install</summary>
+
+## <font color="red"><ins>[Read the documentation first!](https://www.microfocus.com/documentation/identity-governance/3.7/install-guide/b19v78jo.html)</ins></font>
+:warning: **See [Documentation]((https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)) for all current details.** <br>This page is meant to be used as a quick reference.<br>This page may be out of date and is not intended to replace IG's documentation.<br>
+*****
+<br>
+
+</ul>
+
+*****
+
 ## Postgres
+<ul>
 <details><summary>Add or change a password</summary>
 
 ### **PSQL 11**
@@ -95,27 +120,6 @@ ALTER ROLE batman WITH PASSWORD 'Dark Knight';
     
 ##### [PSQL Documentation](https://www.postgresql.org/docs/9.0/sql-alterrole.html)
 </details>
-
-
-## <font color="red"><ins>[Read the documentation first!](https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)</ins></font>
-:warning: **See [Documentation]((https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)) for all current details.** <br>This page is meant to be used as a quick reference.<br>This page may be out of date and is not intended to replace IG's documentation.<br>
-
-| OS     | Release |
-|---     |---      |
-|Red Hat | <ul><li>8.3 (64-bit)</li><li>Later patched versions of 8.x</li></ul>
-
-| LDAP      | Release |
-|---        |---      |
-|[eDirectory](#eDirectory) | <ul><li>9.2</li><li>Later patched versions of 9.<font color="red">2</font>.x</li></ul> |
-</details>
-
-<details><summary>Silent Install</summary>
-
-## <font color="red"><ins>[Read the documentation first!](https://www.microfocus.com/documentation/identity-governance/3.7/install-guide/b19v78jo.html)</ins></font>
-:warning: **See [Documentation]((https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)) for all current details.** <br>This page is meant to be used as a quick reference.<br>This page may be out of date and is not intended to replace IG's documentation.<br>
-*****
-<br>
-
 </ul>
 
 *****
