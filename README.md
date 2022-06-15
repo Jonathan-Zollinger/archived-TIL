@@ -37,4 +37,29 @@ firewall-cmd --reload
 ```
 </details>
 
+## Postgres
+<details><summary>Add or change a password</summary>
+
+### **PSQL 11**
+To add or change a password, log in as the database admin (default is postgres). Supplying the password can either be done in line using the [ALTER ROLE](https://www.postgresql.org/docs/11/sql-alterrole.html) command. 
+    
+- Supplying the password in line for the batman user would be: 
+<ul>
+
+```SQL
+ALTER ROLE batman WITH PASSWORD 'Dark Knight';
+```
+</ul>
+
+- The password for the database admin can be obfuscated when initializing the database. This is done by providing a file containing the password and referencing that file with the `--pwfile` flag along with specifying the appropriate security setting with the [`-A md5`](https://www.postgresql.org/docs/11/pgcrypto.html) flag. 
+<ul>
+
+ ```SQL
+ /usr/lib/postgresql11/bin/initdb -D /usr/local/pgsql/data --pwfile /usr/local/pgsql/postgres-password.txt  -A md5
+ ```
+</ul>
+    
+##### [PSQL Documentation](https://www.postgresql.org/docs/9.0/sql-alterrole.html)
+</details>
+
 
