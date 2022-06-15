@@ -125,7 +125,7 @@ The password for the database admin can be obfuscated when initializing the data
  ```
 </ul>
     
-##### [PSQL Documentation](https://www.postgresql.org/docs/9.0/sql-alterrole.html)
+##### [PSQL Documentation](https://www.postgresql.org/docs/11.0/sql-alterrole.html)
 </details>
 </ul>
 
