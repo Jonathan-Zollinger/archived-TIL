@@ -5,9 +5,9 @@
 ## Firefox
 <details><summary>Allow HTTP Sites</summary>
 
-1. Open [`about:config`](images\Firefox;about-config.png) in Firefox. 
+1. Open [`about:config`](/images/Firefox%3Babout-config.png) in Firefox. 
     - ##### *You may be prompted to accept the risk of changing firefox configration.* 
-2. [Search for and change](images\Firefox;about-config;changing_properties.gif) the following properties `false` 
+2. [Search for and change](/images/Firefox%3Babout-config%3Bchanging_properties.gif) the following properties `false` 
 ```
 network.cookie.sameSite.laxByDefault:  false
 network.cookie.sameSite.noneRequiresSecure:  false
