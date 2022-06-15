@@ -9,7 +9,7 @@
 - [eDirectory](#eDirectory)
 - [Firefox](#Firefox)
 - [Firewall](#Firewall)
-- [IG Install](#IG Installation)
+- [IG Install](#IG-Installation)
 - [Postgres](#Postgres)
 
 ## eDirectory
