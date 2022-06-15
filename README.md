@@ -111,11 +111,13 @@ ALTER ROLE batman WITH PASSWORD 'Dark Knight';
 </ul>
 - or, more useful for actual use:
 <ul>
+    
 ```SQL
 ALTER ROLE postgres WITH PASSWORD 'postgres';
 ```
+</ul>
 
-- The password for the database admin can be obfuscated when initializing the database. This is done by providing a file containing the password and referencing that file with the `--pwfile` flag along with specifying the appropriate security setting with the [`-A md5`](https://www.postgresql.org/docs/11/pgcrypto.html) flag. 
+The password for the database admin can be obfuscated when initializing the database. This is done by providing a file containing the password and referencing that file with the `--pwfile` flag along with specifying the appropriate security setting with the [`-A md5`](https://www.postgresql.org/docs/11/pgcrypto.html) flag. 
 <ul>
 
  ```SQL
