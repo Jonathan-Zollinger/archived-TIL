@@ -16,8 +16,8 @@
 <ul>
 <details><summary>Download</summary>
 
-| Version | Download                                                                                             |                                                                                                     |
-|---------|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| Version | Download|     |
+|---------|---------|-----|
 | 9.2.1   | [Windows](http://prvbuilder02.provo.novell.com/artifacts/edir/921/eDirectory_921_Windows_x86_64.exe) | [Linux](http://prvbuilder02.provo.novell.com/artifacts/edir/921/eDirectory_921_Linux_x86_64.tar.gz) |
 | 9.2.5   | [Windows](http://prvbuilder02.provo.novell.com/artifacts/edir/925/eDirectory_925_Windows_x86_64.exe) | [Linux](http://prvbuilder02.provo.novell.com/artifacts/edir/925/eDirectory_925_Linux_x86_64.tar.gz) |
 
