@@ -16,12 +16,12 @@
 <ul>
 <details><summary>Download</summary>
 
-| Version | Download|     |
-|---------|---------|-----|
-| 9.2.1   | [Windows](http://prvbuilder02.provo.novell.com/artifacts/edir/921/eDirectory_921_Windows_x86_64.exe) | [Linux](http://prvbuilder02.provo.novell.com/artifacts/edir/921/eDirectory_921_Linux_x86_64.tar.gz) |
-| 9.2.5   | [Windows](http://prvbuilder02.provo.novell.com/artifacts/edir/925/eDirectory_925_Windows_x86_64.exe) | [Linux](http://prvbuilder02.provo.novell.com/artifacts/edir/925/eDirectory_925_Linux_x86_64.tar.gz) |
+| Version | Download|     | Documentation |
+|---------|---------|-----|---------------|
+| 9.2.1   | [Windows](http://prvbuilder02.provo.novell.com/artifacts/edir/921/eDirectory_921_Windows_x86_64.exe) | [Linux](http://prvbuilder02.provo.novell.com/artifacts/edir/921/eDirectory_921_Linux_x86_64.tar.gz) | [Release Notes](https://www.netiq.com/documentation/edirectory-92/edirectory921_releasenotes/data/edirectory921_releasenotes.html) [Install Guide]() | 
+| 9.2.5   | [Windows](http://prvbuilder02.provo.novell.com/artifacts/edir/925/eDirectory_925_Windows_x86_64.exe) | [Linux](http://prvbuilder02.provo.novell.com/artifacts/edir/925/eDirectory_925_Linux_x86_64.tar.gz) | [Release Notes](https://www.netiq.com/documentation/edirectory-92/edirectory925_releasenotes/data/edirectory925_releasenotes.html) | 
 
-> :bulb: More eDir downloads (including some md5 versions) are available from the [provo's artifactory](http://prvbuilder02.provo.novell.com/artifacts/edir/).
+> :bulb: More eDir downloads (including some md5 versions) are available from the [provo's artifactory](http://prvbuilder02.provo.novell.com/artifacts/edir/). Install and admin guides can be found in [eDir's doc suite](https://www.netiq.com/documentation/edirectory-92/)
 
 </details>
 </ul>
