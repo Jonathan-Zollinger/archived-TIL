@@ -122,3 +122,21 @@ ALTER ROLE batman WITH PASSWORD 'Dark Knight';
 </ul>
 
 *****
+
+## Wget
+<ul>
+
+##### The non-interactive network downloader.
+<details><summary>Specify download directory</summary>
+
+The `-o` flag is synonymous to `--output-document=<value>`. Even though it seems to be used just to rename a downloaded file, the Documentation states:
+> Use of ‘-O’ is not intended to mean simply “use the name file instead of the one in the URL;” rather, it is analogous to shell redirection: ‘wget -O file http://foo’ is intended to work like ‘wget -O - http://foo > file’; file will be truncated immediately, and all downloaded content will be written there.
+So this flag is the same as using redirection but in the end you're just renaming the downloaded document.
+
+This example downloads an image to the `/batman/` directory from unsplash.com:
+```bash
+mkdir /batman/
+wget -o /batman/ https://bit.ly/3QrimZb
+```
+</details>
+</ul>
