@@ -11,6 +11,8 @@
 - [Firewall](#Firewall)
 - [IG Install](#IG-Installation)
 - [Postgres](#Postgres)
+- [SSH](#SSH)
+- [Wget](#Wget)
 
 ## eDirectory
 <ul>
@@ -131,10 +133,53 @@ The password for the database admin can be obfuscated when initializing the data
 
 *****
 
+## SSH
+<ul>
+<details><summary>Generate an SSH key</summary>
+The following command will generate a new SSH key.
+
+
+```bash
+ssh-keygen -t rsa -C "your@email.com" -b 4096
+```
+After calling the previous cmdlet, the prompt will present a few questions to determine file location and password. 
+<br>The following is an example of the full process of creating a new SSH key:
+
+```PowerShell
+PS C:\Users\Batman> ssh-keygen -t rsa -C 'Bat.Man@microfocus.com' -b 4096
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\Batman/.ssh/id_rsa):
+Created directory 'C:\Users\Batman\.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\Batman/.ssh/id_rsa.
+Your public key has been saved in C:\Users\Batman/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:TcRYOBuHd4hSq6RBUoXrVlmY6YkoYyxxLUwKH94j8IM Bat.Man@microfocus.com
+The key's randomart image is:
++---[RSA 4096]----+
+|oo+ooo.=.Bo.     |
+|oB+=o = Oo= .    |
+|Eo*o++.=.*..     |
+|+o.oo==..o       |
+|oo .... S .      |
+|    o            |
+|   .             |
+|                 |
+|                 |
++----[SHA256]-----+
+PS C:\Users\Batman>
+```
+
+</details>
+</ul>
+
+*****
+
 ## Wget
 <ul>
 
-##### The non-interactive network downloader.
+##### *The non-interactive network downloader.*
 <details><summary>Specify download directory</summary>
 
 The `-o` flag is synonymous to `--output-document=<value>`. Even though it seems to be used just to rename a downloaded file, the Documentation states:
