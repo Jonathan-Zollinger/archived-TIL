@@ -10,6 +10,7 @@
 - [Firefox](#Firefox)
 - [Firewall](#Firewall)
 - [IG Install](#IG-Installation)
+- [InstallAnywhere](#InstallAnywhere)
 - [Postgres](#Postgres)
 - [SSH](#SSH)
 - [Wget](#Wget)
@@ -95,7 +96,23 @@ firewall-cmd --reload
 </ul>
 
 *****
+## InstallAnywhere
 
+<ul>
+<details><summary>Download</summary>
+
+Install anywhere is published by [Revenera](https://www.revenera.com/install/products/installanywhere). The
+InstallAnywhere product itself can be downloaded from their 
+[Product and License Center](https://www.revenera.com/install/products/installanywhere). <br> Micro Focus's account manager 
+will need to create an account for anyone looking to access this resource. 
+
+> :warning: In order to access a newly created account, users will need to go through the process of resetting a 
+> forgotten password through the Product and License Center
+
+</details>
+</ul>
+
+*****
 ## Postgres
 <ul>
 <details><summary>Add or change a password</summary>
@@ -132,7 +149,6 @@ The password for the database admin can be obfuscated when initializing the data
 </ul>
 
 *****
-
 ## SSH
 <ul>
 <details><summary>Generate an SSH key</summary>
@@ -175,7 +191,6 @@ PS C:\Users\Batman>
 </ul>
 
 *****
-
 ## Wget
 <ul>
 
