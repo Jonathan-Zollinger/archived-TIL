@@ -2,7 +2,7 @@
 <ul>
 
 [by making this an unordered list w/ no items, this is a work-around for indenting this section.]: #
-##### Today I Learned &nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp; Zettelkasen style notes
+##### Today I Learned &nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp; Zettelkasten style notes
 </ul>
 
 # Topics
@@ -108,6 +108,24 @@ will need to create an account for anyone looking to access this resource.
 
 > :warning: In order to access a newly created account, users will need to go through the process of resetting a 
 > forgotten password through the Product and License Center
+
+</details>
+
+<details><summary>Call Maven with InstallAnywhere profile</summary>
+
+To specify InstallAnywhere's install folder as `ia.root`, assign the `ia.root` value when invoking 
+maven with the `-D` flag.
+
+If InstallAnywhere is installed on a Windows' `C:/Program Files/InstallAnywhere 2021/`, the following 
+can be invoked to prepare the installer:
+```bash
+mvn clean compile -D"ia.root"="C:\Program Files\InstallAnywhere 2021"
+```
+Likewise, to build the installer:
+```bash
+mvn clean install -D"ia.root"="C:\Program Files\InstallAnywhere 2021"
+```
+> :bulb: When calling maven on Linux, the double quotes aren't needed. However, they are needed on Windows.
 
 </details>
 </ul>
