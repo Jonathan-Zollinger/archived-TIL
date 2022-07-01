@@ -53,6 +53,24 @@ network.cookie.sameSite.schemeful:  false
 ## Firewall
 
 <ul>
+<details><summary>List open ports</summary>
+
+##### There's more than one way to skin a cat. 
+
+### Firewallcmd
+
+```bash
+firewall-cmd --list-ports    
+```
+
+```bash
+firewall-cmd --list-all-zones    
+```
+[Docs](https://firewalld.org/documentation/man-pages/firewall-cmd.html)
+</details>
+</ul>
+
+<ul>
 <details><summary>Open a port</summary>
 
 ### **RHEL 7 & 8**
