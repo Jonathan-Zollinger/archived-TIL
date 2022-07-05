@@ -9,6 +9,7 @@
 - [eDirectory](#eDirectory)
 - [Firefox](#Firefox)
 - [Firewall](#Firewall)
+- [Git](#Git)
 - [IG Install](#IG-Installation)
 - [InstallAnywhere](#InstallAnywhere)
 - [Postgres](#Postgres)
@@ -69,6 +70,26 @@ firewall-cmd --reload
 </ul>
 
 *****
+## Git
+<ul>
+<details><summary>Message patterns to update ALM automatically</summary>
+
+Within ALM for defects, stories (user & quality), and features, there is a “Development” tab that will show 
+associated commits. This integration is handled through ALM using “SCM change pattern” profiles. 
+Currently the following profiles are available and triggered based on certain message patterns
+
+|Entity type|Message pattern|Applies to|Example|
+|:----|:----|:----|:----|
+|Defect|defect\s*#(\d+)|Branches;<br>Commits;<br>Pull requests|Fix defect #1234|
+|Defect|bug\s*#(\d+)|Branches;<br>Commits;<br>Pull requests|Fix bug #1234|
+|User story|user story\s*#(\d+)|Branches;<br>Commits;<br>Pull requests|Part of user story #56789|
+|Quality story|quality story\s*#(\d+)|Branches;<br>Commits;<br>Pull requests|Part of quality story #56789|
+|Feature|feature\s*#(\d+)|Branches;<br>Pull requests<br>|feature #98765|
+
+
+</details>
+</ul>
+
 ## IG Installation
 <ul>
 <details><summary>Required Software</summary>
