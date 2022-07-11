@@ -27,6 +27,7 @@
 
 > :bulb: More eDir downloads (including some md5 versions) are available from [provo's artifactory](http://prvbuilder02.provo.novell.com/artifacts/edir/). Install and admin guides can be found in [eDir's doc suite](https://www.netiq.com/documentation/edirectory-92/)
 
+<br>
 </details>
 </ul>
 
@@ -47,6 +48,7 @@ network.cookie.sameSite.schemeful:  false
 3. Restart Firefox
     - ##### *You can restart firefox by hitting `ctrl + F5`*
 
+<br>
 </details>
 </ul>
 
@@ -68,6 +70,7 @@ firewall-cmd --list-ports
 firewall-cmd --list-all-zones    
 ```
 [Docs](https://firewalld.org/documentation/man-pages/firewall-cmd.html)
+<br>
 </details>
 </ul>
 
@@ -84,6 +87,7 @@ firewall-cmd --zone=public --permanent --add-port=8080/udp
 # Firewall daemon needs to restart in order to put changes into effect.
 firewall-cmd --reload
 ```
+<br>
 </details>
 </ul>
 
@@ -105,6 +109,7 @@ Currently the following profiles are available and triggered based on certain me
 |Feature|feature\s*#(\d+)|Branches;<br>Pull requests<br>|feature #98765|
 
 
+<br>
 </details>
 </ul>
 
@@ -124,6 +129,7 @@ Currently the following profiles are available and triggered based on certain me
 | LDAP      | Release |
 |---        |---      |
 |[eDirectory](#eDirectory) | <ul><li>9.2</li><li>Later patched versions of 9.<font color="red">2</font>.x</li></ul> |
+<br>
 </details>
 
 <details><summary>Silent Install</summary>
@@ -131,6 +137,7 @@ Currently the following profiles are available and triggered based on certain me
 ### <font color="red"><ins>[Read the documentation first!](https://www.microfocus.com/documentation/identity-governance/3.7/install-guide/b19v78jo.html)</ins></font>
 > :warning: **See [Documentation]((https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)) for all current details.** <br>This page is meant to be used as a quick reference.<br>This page may be out of date and is not intended to replace IG's documentation.<br>
 *****
+<br>
 </details>
 </ul>
 
@@ -148,6 +155,22 @@ will need to create an account for anyone looking to access this resource.
 > :warning: In order to access a newly created account, users will need to go through the process of resetting a 
 > forgotten password through the Product and License Center
 
+<br>
+</details>
+
+
+<details><summary>License IA</summary>
+
+1. Execute the binary and open the IA Licensing Wizard.
+2. Select the concurrent license option.
+3. Enter `ia-lm.idmapps.nqbuildlab` for the license server's hostname. The port is `27000`
+
+<ul>
+<br>
+<img src="images/InstallAnywhereLicenseWizard.png" alt="Alt text" width="75%"/> 
+</ul>
+
+<br>
 </details>
 
 <details><summary>Call Maven with InstallAnywhere profile</summary>
@@ -155,17 +178,24 @@ will need to create an account for anyone looking to access this resource.
 To specify InstallAnywhere's install folder as `ia.root`, assign the `ia.root` value when invoking 
 maven with the `-D` flag.
 
-If InstallAnywhere is installed on a Windows' `C:/Program Files/InstallAnywhere 2021/`, the following 
+If InstallAnywhere is installed on a Windows' `C:/Program Files/InstallAnywhere 2021/` or `/root/InstallAnywhere 2021`, the following 
 can be invoked to prepare the installer:
 ```bash
 mvn clean compile -D"ia.root"="C:\Program Files\InstallAnywhere 2021"
+```
+```bash
+mvn clean compile -Dia.root=/root/InstallAnywhere\ 2021
 ```
 Likewise, to build the installer:
 ```bash
 mvn clean install -D"ia.root"="C:\Program Files\InstallAnywhere 2021"
 ```
+```bash
+mvn clean install -Dia.root=/root/InstallAnywhere\ 2021
+```
 > :bulb: When calling maven on Linux, the double quotes aren't needed. However, they are needed on Windows.
 
+<br>
 </details>
 </ul>
 
@@ -202,6 +232,7 @@ The password for the database admin can be obfuscated when initializing the data
 </ul>
     
 ##### [PSQL Documentation](https://www.postgresql.org/docs/11.0/sql-alterrole.html)
+<br>
 </details>
 </ul>
 
@@ -244,6 +275,7 @@ The key's randomart image is:
 PS C:\Users\Batman>
 ```
 
+<br>
 </details>
 </ul>
 
@@ -263,5 +295,6 @@ This example downloads an image to the `/batman/` directory from unsplash.com:
 mkdir /batman/
 wget -o /batman/ https://bit.ly/3QrimZb
 ```
+<br>
 </details>
 </ul>
