@@ -111,6 +111,15 @@ Currently the following profiles are available and triggered based on certain me
 
 <br>
 </details>
+
+
+
+<details><summary>Rename a branch</summary>
+
+```bash
+git -c credential.helper= -c core.quotepath=false -c log.showSignature=false branch -m <current-branch-name> <new-branch-name> 
+```
+
 </ul>
 
 ## IG Installation
