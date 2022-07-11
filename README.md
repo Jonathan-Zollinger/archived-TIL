@@ -142,7 +142,7 @@ Currently the following profiles are available and triggered based on certain me
 
 Install anywhere is published by [Revenera](https://www.revenera.com/install/products/installanywhere). The
 InstallAnywhere product itself can be downloaded from their 
-[Product and License Center](https://www.revenera.com/install/products/installanywhere). <br> Micro Focus's account manager 
+[Product and License Center](https://flexerasoftware.flexnetoperations.com/). <br> Micro Focus's account manager 
 will need to create an account for anyone looking to access this resource. 
 
 > :warning: In order to access a newly created account, users will need to go through the process of resetting a 
