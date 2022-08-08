@@ -94,7 +94,9 @@ firewall-cmd --reload
 *****
 ## Git
 <ul>
+    
 <details><summary>Message patterns to update ALM automatically</summary>
+<br>
 
 Within ALM for defects, stories (user & quality), and features, there is a “Development” tab that will show 
 associated commits. This integration is handled through ALM using “SCM change pattern” profiles. 
@@ -107,19 +109,31 @@ Currently the following profiles are available and triggered based on certain me
 |User story|user story\s*#(\d+)|Branches;<br>Commits;<br>Pull requests|Part of user story #56789|
 |Quality story|quality story\s*#(\d+)|Branches;<br>Commits;<br>Pull requests|Part of quality story #56789|
 |Feature|feature\s*#(\d+)|Branches;<br>Pull requests<br>|feature #98765|
-
-
+    
 <br>
 </details>
-
-
-
 <details><summary>Rename a branch</summary>
-
+<br>This is a long 'un. 
+    
 ```bash
 git -c credential.helper= -c core.quotepath=false -c log.showSignature=false branch -m <current-branch-name> <new-branch-name> 
 ```
+</details>
+<details><summary>Stage changes and commit changes in one command</summary>
+<br>
 
+There's no built in way to perform this with git, but git permits the creation of aliases. <br>
+
+```bash
+$ git config --global alias.add-commit '!git add -A && git commit'
+```
+
+To unset the alias use <br>
+
+```bash
+git config --global --unset alias.<your_alias>`
+```
+</details>
 </ul>
 
 ## IG Installation
