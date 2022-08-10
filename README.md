@@ -12,6 +12,7 @@
 - [Git](#Git)
 - [IG Install](#IG-Installation)
 - [InstallAnywhere](#InstallAnywhere)
+- [Maven](#Maven)
 - [Postgres](#Postgres)
 - [SSH](#SSH)
 - [Wget](#Wget)
