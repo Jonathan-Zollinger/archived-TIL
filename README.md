@@ -33,6 +33,7 @@
 
 *****
 ## Firefox
+
 <ul>
 <details><summary>Allow HTTP Sites</summary>
 
@@ -223,6 +224,30 @@ mvn clean install -Dia.root=/root/InstallAnywhere\ 2021
 </ul>
 
 *****
+
+## <a href=https://maven.apache.org/>Maven</a>
+
+<ul>
+<details><summary>Versions Maven Plugin</summary>
+
+
+The [versions-maven-plugin](https://www.mojohaus.org/versions-maven-plugin/index.html) can update dependency and plugin version values in pom files for a given project. It can handle direct manipulation of the version tag inside a dependency entry, it can also handle updating properties used for version numbers.
+
+
+<details><summary>Re-versioning a repo using <a href=www.test.com>versions:set</a></summary>
+
+Using IG's idgov repo as an example, this repo has several pom files. From the project root, the following example can be called to set the project version to 4.0.0-SNAPSHOT. Using the `-DprocessAllModules` flag sets the changes to be made to all modules, whether a parent or child pom. 
+
+```bash
+mvn versions:set -DnewVersion=4.0.0-SNAPSHOT -DprocessAllModules -DgenerateBackupPoms=false -DfullBuild
+```
+</details>
+
+
+</ul></details>
+
+*****
+
 ## Postgres
 <ul>
 <details><summary>Add or change a password</summary>
