@@ -242,6 +242,8 @@ Using IG's idgov repo as an example, this repo has several pom files. From the p
 ```bash
 mvn versions:set -DnewVersion=4.0.0-SNAPSHOT -DprocessAllModules -DgenerateBackupPoms=false -DfullBuild
 ```
+> :heavy_exclamation_mark: Can't get this to work on windows?<br><br>When running this from windows, you may recieve errors that can be resolved by assignments within flags, ie `-DnewVersion="4.0.0-SNAPSHOT"`
+    
 </details>
 
 
