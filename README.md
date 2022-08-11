@@ -242,8 +242,10 @@ Using IG's idgov repo as an example, this repo has several pom files. From the p
 ```bash
 mvn versions:set -DnewVersion=4.0.0-SNAPSHOT -DprocessAllModules -DgenerateBackupPoms=false -DfullBuild
 ```
-> :bulb: Can't get this to work on windows?<br><br>When running this from windows, you may recieve errors that can be resolved by assignments within flags, ie `-DnewVersion="4.0.0-SNAPSHOT"`
+<ul>
     
+> :bulb: Can't get this to work on windows?<br><br>When running this from windows, you may recieve errors that can be resolved by double-quoting assignments within flags, ie `-DnewVersion="4.0.0-SNAPSHOT"`
+</ul>
 </details>
 
 <details><summary>Re-versioning a repo using <a href=https://www.mojohaus.org/versions-maven-plugin/set-property-mojo.html>versions:sets-property</a></summary>
@@ -258,7 +260,7 @@ postgres.version=42.3.4
 To use the maven plugin and reference our newly created properties file, we can use the following command (where `release-versions.properties` is the new key-value pair file we created):
     
 ```bash
-mvnversions:set-property -DpropertiesVersionsFile=release-versions.properties -DgenerateBackupPoms=false
+mvn versions:set-property -DpropertiesVersionsFile=release-versions.properties -DgenerateBackupPoms=false
 ```
     
 </details>
