@@ -234,7 +234,7 @@ mvn clean install -Dia.root=/root/InstallAnywhere\ 2021
 
 The [versions-maven-plugin](https://www.mojohaus.org/versions-maven-plugin/index.html) can update dependency and plugin version values in pom files for a given project. It can handle direct manipulation of the version tag inside a dependency entry, it can also handle updating properties used for version numbers.
 
-
+<a id='versions-set'></a>
 <details><summary>Re-versioning a repo using <a href=https://www.mojohaus.org/versions-maven-plugin/set-mojo.html>versions:set</a></summary>
 
 Using IG's idgov repo as an example, this repo has several pom files. From the project root, the following example can be called to set the project version to 4.0.0-SNAPSHOT. Using the `-DprocessAllModules` flag sets the changes to be made to all modules, whether a parent or child pom. 
@@ -247,7 +247,7 @@ mvn versions:set -DnewVersion=4.0.0-SNAPSHOT -DprocessAllModules -DgenerateBacku
 > :bulb: Can't get this to work on windows?<br><br>When running this from windows, you may recieve errors that can be resolved by double-quoting assignments within flags, ie `-DnewVersion="4.0.0-SNAPSHOT"`
 </ul>
 </details>
-
+<a id='versions-set-property'></a>
 <details><summary>Re-versioning a repo using <a href=https://www.mojohaus.org/versions-maven-plugin/set-property-mojo.html>versions:sets-property</a></summary>
     
 Using  IG's ig-install repo as an example, I want to change all the property versions for dependencies using maven's versions:set-property plugin. I'll first create a properties file in .ini format. the .ini format is a key-value pair, where the key is the property as called in the pom file. An example could be the following: 
