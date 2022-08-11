@@ -245,7 +245,7 @@ mvn versions:set -DnewVersion=4.0.0-SNAPSHOT -DprocessAllModules -DgenerateBacku
 ```
 <ul>
     
-> :bulb: Can't get this to work on windows?<br><br>When running this from windows, you may recieve errors that can be resolved by double-quoting assignments within flags, ie `-DnewVersion="4.0.0-SNAPSHOT"`
+> :bulb: Can't get this to work on windows?<br>When running this from windows, you may recieve errors that can be resolved by double-quoting assignments within flags, ie `-DnewVersion="4.0.0-SNAPSHOT"`
 </ul>
 </details>
     
@@ -265,6 +265,8 @@ To use the maven plugin and reference our newly created properties file, we can 
 ```bash
 mvn versions:set-property -DpropertiesVersionsFile=release-versions.properties -DgenerateBackupPoms=false
 ```
+
+> :bulb: Can't get this to work on windows?<br>When running this from windows, you may recieve errors that can be resolved by double-quoting assignments within flags, ie `-DpropertiesVersionsFile="release-versions.properties"`    
     
 </details>
     
