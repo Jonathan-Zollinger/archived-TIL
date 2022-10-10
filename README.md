@@ -188,7 +188,7 @@ will need to create an account for anyone looking to access this resource.
 
 1. Execute the binary and open the IA Licensing Wizard.
 2. Select the concurrent license option.
-3. Enter `ia-lm.idmapps.nqbuildlab` for the license server's hostname. The port is `27000`
+3. Enter `ia-lm.idmapps.nqbuild.lab` for the license server's hostname. The port is `27000`
 
 <ul>
 <br>
