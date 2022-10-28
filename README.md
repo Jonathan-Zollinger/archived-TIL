@@ -166,6 +166,14 @@ git config --global --unset alias.<your_alias>`
 </details>
 </ul>
 
+<details><summary>Supported Migration Paths</summary>
+
+- 3.6.2.5 -> 3.7.2
+- 3.7.0 -> 3.7.2
+- 3.7.1.x -> 3.7.2
+
+</details>
+
 *****
 ## InstallAnywhere
 
