@@ -6,33 +6,15 @@
 </ul>
 
 # Topics
-- [eDirectory](#eDirectory)
 - [Firefox](#Firefox)
 - [Firewall](#Firewall)
 - [Git](#Git)
-- [IG Install](#IG-Installation)
-- [InstallAnywhere](#InstallAnywhere)
-- [Maven](#Maven)
 - [Postgres](#Postgres)
 - [SSH](#SSH)
 - [Wget](#Wget)
 
-## eDirectory
-<ul>
-<details><summary>Download</summary>
+-----
 
-| Version | Download|     | Documentation |
-|---------|---------|-----|---------------|
-| 9.2.1   | [Windows](http://prvbuilder02.provo.novell.com/artifacts/edir/921/eDirectory_921_Windows_x86_64.exe) | [Linux](http://prvbuilder02.provo.novell.com/artifacts/edir/921/eDirectory_921_Linux_x86_64.tar.gz) | [Release Notes](https://www.netiq.com/documentation/edirectory-92/edirectory921_releasenotes/data/edirectory921_releasenotes.html)| 
-| 9.2.5   | [Windows](http://prvbuilder02.provo.novell.com/artifacts/edir/925/eDirectory_925_Windows_x86_64.exe) | [Linux](http://prvbuilder02.provo.novell.com/artifacts/edir/925/eDirectory_925_Linux_x86_64.tar.gz) | [Release Notes](https://www.netiq.com/documentation/edirectory-92/edirectory925_releasenotes/data/edirectory925_releasenotes.html) | 
-
-> :bulb: More eDir downloads (including some md5 versions) are available from [provo's artifactory](http://prvbuilder02.provo.novell.com/artifacts/edir/). Install and admin guides can be found in [eDir's doc suite](https://www.netiq.com/documentation/edirectory-92/)
-
-<br>
-</details>
-</ul>
-
-*****
 ## Firefox
 
 <ul>
@@ -115,7 +97,7 @@ Currently the following profiles are available and triggered based on certain me
 <br>
 </details>
 <details><summary>Rename a branch</summary>
-<br>This is a long 'un. 
+<br>
     
 ```bash
 git -c credential.helper= -c core.quotepath=false -c log.showSignature=false branch -m <current-branch-name> <new-branch-name> 
@@ -138,152 +120,6 @@ git config --global --unset alias.<your_alias>`
 </details>
 </ul>
 
-## IG Installation
-<ul>
-<details><summary>Required Software</summary>
-
-*****
-
-### <font color="red"><ins>[Read the documentation first!](https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)</ins></font>
-> :warning: **See [Documentation]((https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)) for all current details.** <br>This page is meant to be used as a quick reference.<br>This page may be out of date and is not intended to replace IG's documentation.<br>
-
-| OS      | Release                                                              |
-|---------|----------------------------------------------------------------------|
-| Red Hat | <ul><li>8.3 (64-bit)</li><li>Later patched versions of 8.x</li></ul> |
-
-| LDAP      | Release |
-|---        |---      |
-|[eDirectory](#eDirectory) | <ul><li>9.2</li><li>Later patched versions of 9.<font color="red">2</font>.x</li></ul> |
-<br>
-</details>
-
-<details><summary>Silent Install</summary>
-
-### <font color="red"><ins>[Read the documentation first!](https://www.microfocus.com/documentation/identity-governance/3.7/install-guide/b19v78jo.html)</ins></font>
-> :warning: **See [Documentation]((https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)) for all current details.** <br>This page is meant to be used as a quick reference.<br>This page may be out of date and is not intended to replace IG's documentation.<br>
-*****
-<br>
-</details>
-</ul>
-
-<details><summary>Supported Migration Paths</summary>
-
-- 3.6.2.5 -> 3.7.2
-- 3.7.0 -> 3.7.2
-- 3.7.1.x -> 3.7.2
-
-</details>
-
-*****
-## InstallAnywhere
-
-<ul>
-<details><summary>Download</summary>
-
-Install anywhere is published by [Revenera](https://www.revenera.com/install/products/installanywhere). The
-InstallAnywhere product itself can be downloaded from their 
-[Product and License Center](https://flexerasoftware.flexnetoperations.com/). <br> Micro Focus's account manager 
-will need to create an account for anyone looking to access this resource. 
-
-> :warning: In order to access a newly created account, users will need to go through the process of resetting a 
-> forgotten password through the Product and License Center
-
-<br>
-</details>
-
-
-<details><summary>License IA</summary>
-
-1. Execute the binary and open the IA Licensing Wizard.
-2. Select the concurrent license option.
-3. Enter `ia-lm.idmapps.nqbuild.lab` for the license server's hostname. The port is `27000`
-
-<ul>
-<br>
-<img src="images/InstallAnywhereLicenseWizard.png" alt="Alt text" width="75%"/> 
-</ul>
-
-<br>
-</details>
-
-<details><summary>Call Maven with InstallAnywhere profile</summary>
-
-To specify InstallAnywhere's install folder as `ia.root`, assign the `ia.root` value when invoking 
-maven with the `-D` flag.
-
-If InstallAnywhere is installed on a Windows' `C:/Program Files/InstallAnywhere 2021/` or `/root/InstallAnywhere 2021`, the following 
-can be invoked to prepare the installer:
-```bash
-mvn clean compile -D"ia.root"="C:\Program Files\InstallAnywhere 2021"
-```
-```bash
-mvn clean compile -Dia.root=/root/InstallAnywhere\ 2021
-```
-Likewise, to build the installer:
-```bash
-mvn clean install -D"ia.root"="C:\Program Files\InstallAnywhere 2021"
-```
-```bash
-mvn clean install -Dia.root=/root/InstallAnywhere\ 2021
-```
-> :bulb: When calling maven on Linux, the double quotes aren't needed. However, they are needed on Windows.
-
-<br>
-</details>
-</ul>
-
-*****
-
-## <a href=https://maven.apache.org/>Maven</a>
-
-<ul>
-<details><summary>Versions Maven Plugin</summary>
-<br>
-
-The [versions-maven-plugin](https://www.mojohaus.org/versions-maven-plugin/index.html) can update dependency and plugin version values in pom files for a given project. It can handle direct manipulation of the version tag inside a dependency entry, it can also handle updating properties used for version numbers.
-
-<a id='versions-set'></a>
-    
-<details><summary>Re-versioning a repo using <a href=https://www.mojohaus.org/versions-maven-plugin/set-mojo.html>versions:set</a></summary>
-<br>
-Using IG's idgov repo as an example, I want to update all instances of the project version through all pom files (this project has several pom files). From the project root, the following example can be called to set the project version to 4.0.0-SNAPSHOT. I'm Using the `-DprocessAllModules` flag to include the changes in all modules, whether a parent pom or child pom. 
-
-```bash
-mvn versions:set -DnewVersion=4.0.0-SNAPSHOT -DprocessAllModules -DgenerateBackupPoms=false -DfullBuild
-```
-<ul>
-    
-> :bulb: Can't get this to work on windows?<br>When running this from windows, you may recieve errors that can be resolved by double-quoting assignments within flags, ie `-DnewVersion="4.0.0-SNAPSHOT"`
-</ul>
-</details>
-    
-<a id='versions-set-property'></a>
-    
-<details><summary>Re-versioning a repo using <a href=https://www.mojohaus.org/versions-maven-plugin/set-property-mojo.html>versions:sets-property</a></summary>
-<br>
-
-Using  IG's ig-install repo as an example, I want to change all the property versions for dependencies using maven's versions:set-property plugin. I'll first create a properties file in .ini format. the .ini format is a key-value pair, where the key is the property as called in the pom file. An example could be the following: 
-    
-```
-igclient.version=4.0.0-SNAPSHOT
-igserver.version=4.0.0-SNAPSHOT
-postgres.version=42.3.4
-```
-To use the maven plugin and reference our newly created properties file, we can use the following command (where `release-versions.properties` is the new key-value pair file we created):
-    
-```bash
-mvn versions:set-property -DpropertiesVersionsFile=release-versions.properties -DgenerateBackupPoms=false
-```
-
-> :bulb: Can't get this to work on windows?<br>When running this from windows, you may recieve errors that can be resolved by double-quoting assignments within flags, ie `-DpropertiesVersionsFile="release-versions.properties"`    
-    
-</details>
-    
-</details>
-
-</ul></details>
-
-*****
 
 ## Postgres
 <ul>
