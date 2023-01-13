@@ -6,9 +6,12 @@
 </ul>
 
 # Topics
+- [eDirectory](#eDirectory)
 - [Firefox](#Firefox)
 - [Firewall](#Firewall)
 - [Git](#Git)
+- [IG Install](#IG-Installation)
+- [Maven](#Maven)
 - [Postgres](#Postgres)
 - [SSH](#SSH)
 - [Wget](#Wget)
