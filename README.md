@@ -82,23 +82,6 @@ firewall-cmd --reload
 ## Git
 <ul>
     
-<details><summary>Message patterns to update ALM automatically</summary>
-<br>
-
-Within ALM for defects, stories (user & quality), and features, there is a “Development” tab that will show 
-associated commits. This integration is handled through ALM using “SCM change pattern” profiles. 
-Currently the following profiles are available and triggered based on certain message patterns
-
-|Entity type|Message pattern|Applies to|Example|
-|:----|:----|:----|:----|
-|Defect|defect\s*#(\d+)|Branches;<br>Commits;<br>Pull requests|Fix defect #1234|
-|Defect|bug\s*#(\d+)|Branches;<br>Commits;<br>Pull requests|Fix bug #1234|
-|User story|user story\s*#(\d+)|Branches;<br>Commits;<br>Pull requests|Part of user story #56789|
-|Quality story|quality story\s*#(\d+)|Branches;<br>Commits;<br>Pull requests|Part of quality story #56789|
-|Feature|feature\s*#(\d+)|Branches;<br>Pull requests<br>|feature #98765|
-    
-<br>
-</details>
 <details><summary>Rename a branch</summary>
 <br>
     
@@ -135,10 +118,8 @@ git config --global --unset alias.<your_alias>`
 | OS      | Release                                                              |
 |---------|----------------------------------------------------------------------|
 | Red Hat | <ul><li>8.3 (64-bit)</li><li>Later patched versions of 8.x</li></ul> |
-
-| LDAP      | Release |
-|---        |---      |
 |[eDirectory](#eDirectory) | <ul><li>9.2</li><li>Later patched versions of 9.<font color="red">2</font>.x</li></ul> |
+| Apache Tomcat      | 9.0.69  |
 <br>
 </details>
 
