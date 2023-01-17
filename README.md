@@ -42,46 +42,6 @@ network.cookie.sameSite.schemeful:  false
 *****
 
 
-## IG Installation
-<ul>
-<details><summary>Required Software</summary>
-
-*****
-
-### <font color="red"><ins>[Read the documentation first!](https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)</ins></font>
-> :warning: **See [Documentation]((https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)) for all current details.** <br>This page is meant to be used as a quick reference.<br>This page may be out of date and is not intended to replace IG's documentation.<br>
-
-| OS      | Release                                                              |
-|---------|----------------------------------------------------------------------|
-| Red Hat | <ul><li>8.3 (64-bit)</li><li>Later patched versions of 8.x</li></ul> |
-
-| LDAP      | Release |
-|---        |---      |
-|[eDirectory](#eDirectory) | <ul><li>9.2</li><li>Later patched versions of 9.<font color="red">2</font>.x</li></ul> |
-<br>
-</details>
-
-<details><summary>Silent Install</summary>
-
-### <font color="red"><ins>[Read the documentation first!](https://www.microfocus.com/documentation/identity-governance/3.7/install-guide/b19v78jo.html)</ins></font>
-> :warning: **See [Documentation]((https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)) for all current details.** <br>This page is meant to be used as a quick reference.<br>This page may be out of date and is not intended to replace IG's documentation.<br>
-*****
-<br>
-</details>
-
-<details><summary>Supported Migration Paths</summary>
-
-- 3.6.2.5 -> 3.7.2
-- 3.7.0 -> 3.7.2
-- 3.7.1.x -> 3.7.2
-
-
-</ul>
-
-</details>
-
-
-
 ## Firewall
 
 <ul>
@@ -162,6 +122,44 @@ git config --global --unset alias.<your_alias>`
 ```
 </details>
 </ul>
+
+## IG Installation
+<ul>
+<details><summary>Required Software</summary>
+
+*****
+
+### <font color="red"><ins>[Read the documentation first!](https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)</ins></font>
+> :warning: **See [Documentation]((https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)) for all current details.** <br>This page is meant to be used as a quick reference.<br>This page may be out of date and is not intended to replace IG's documentation.<br>
+
+| OS      | Release                                                              |
+|---------|----------------------------------------------------------------------|
+| Red Hat | <ul><li>8.3 (64-bit)</li><li>Later patched versions of 8.x</li></ul> |
+
+| LDAP      | Release |
+|---        |---      |
+|[eDirectory](#eDirectory) | <ul><li>9.2</li><li>Later patched versions of 9.<font color="red">2</font>.x</li></ul> |
+<br>
+</details>
+
+<details><summary>Silent Install</summary>
+
+### <font color="red"><ins>[Read the documentation first!](https://www.microfocus.com/documentation/identity-governance/3.7/install-guide/b19v78jo.html)</ins></font>
+> :warning: **See [Documentation]((https://www.microfocus.com/documentation/identity-governance/3.7/requirements/requirements.html#b1a4zqh1)) for all current details.** <br>This page is meant to be used as a quick reference.<br>This page may be out of date and is not intended to replace IG's documentation.<br>
+*****
+<br>
+</details>
+
+<details><summary>Supported Migration Paths</summary>
+
+- 3.6.2.5 -> 3.7.2
+- 3.7.0 -> 3.7.2
+- 3.7.1.x -> 3.7.2
+
+
+</ul>
+
+</details>
 
 
 ## Postgres
