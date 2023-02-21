@@ -1,0 +1,3 @@
+vim regex:
+  tips & tricks:
+    - {"replace selection with repeating character of the same size", "s/::\+/\=repeat('%', strlen(submatch(0)))/g"}
