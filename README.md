@@ -14,6 +14,7 @@
 - [Maven](#Maven)
 - [Postgres](#Postgres)
 - [SSH](#SSH)
+- [Tomcat](#Tomcat)
 - [Wget](#Wget)
 
 -----
@@ -221,6 +222,26 @@ PS C:\Users\Batman>
 <br>
 </details>
 </ul>
+
+*****
+## Tomcat
+
+<ul><details><summary>Sync tomcat's vars with your environment variables</summary>
+
+<br>TL;DR > source tomcat's setenv.sh script in your bashrc file.
+
+If your tomcat server reflects a NetIQ flavored installation, you can copy and paste these lines to your .bashrc:
+
+```bash
+if [[ -e '/opt/netiq/idm/apps/tomcat/bin/setenv.sh' ]]; then
+  source "/opt/netiq/idm/apps/tomcat/bin/setenv.sh"
+else
+  echo -e "\033[38;5;1mFailed to source '/opt/netiq/idm/apps/tomcat/bin/setenv.sh', no such file\033[0m"
+fi
+export PATH
+```
+
+</details></ul>
 
 *****
 ## Wget
