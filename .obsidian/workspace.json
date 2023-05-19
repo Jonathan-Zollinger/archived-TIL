@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "520f2a76d329cd1f",
+        "id": "6c6e4125400e88c3",
         "type": "tabs",
         "children": [
           {
-            "id": "34a0d2b6ce02fac7",
+            "id": "5f56a2e279e7284d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "eDir Error Code -1266.md",
-                "mode": "source",
+                "file": "Ternary Operator in Powershell.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "532b59b2eb3b1636",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "eDir Error Code -1266.md",
+                "file": "Ternary Operator in Powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "eDir Error Code -1266.md",
+                "file": "Ternary Operator in Powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "eDir Error Code -1266.md"
+                "file": "Ternary Operator in Powershell.md"
               }
             }
           }
@@ -155,10 +155,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "34a0d2b6ce02fac7",
+  "active": "5f56a2e279e7284d",
   "lastOpenFiles": [
-    "Ternary Operator in Powershell.md",
+    "Java Try with Resources.md",
+    "Templates/Note Template.md",
     "Basic Certificate Example.md",
+    "Validate with eDir installs.md",
+    "False Negatives from RHEL-Prerequisite.sh script.md",
+    "Untitled.md",
+    "eDir Error Code -1266.md",
+    "testing from the cli with junit3.md",
+    "Templates",
+    "Find Junit3 file.md",
+    "Ternary Operator in Powershell.md",
     "Inspect a Certificate from the CLI.md",
     "Basic.md",
     "Inspect a Certificate from the CLI.pdf"
