@@ -1,5 +1,5 @@
 #certificate #edirectory 
-<details><summary>&nbsp;Very simple self signed cert from an eDirectory container:</summary>
+&nbsp;Very simple self signed cert from an eDirectory container:
 <ul>
 
 ```
@@ -104,4 +104,4 @@ SSL-Session:
 ---
 ```
 
-</ul></details>
+</ul>

@@ -1,7 +1,10 @@
-#ternary-operator #cheatsheet #one-liner #powershell
+#cheatsheet #powershell #needs-doc-references
 
 #### Syntax:
-`<expression> ? <if true> : <if false>`
+
+```powershell
+<expression> ? <if true> : <if false>
+```
 
 #### Example:
 

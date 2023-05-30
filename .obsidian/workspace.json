@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2544b82780bfea2f",
+        "id": "8d92a0b3a058f93b",
         "type": "tabs",
         "children": [
           {
-            "id": "0fc89086f955fedd",
+            "id": "5386cdad3ff9e7ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "permanent/Ternary Operator in Powershell.md",
-                "mode": "preview",
+                "file": "fleeting_notes/Make linked file or dir in linux.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#defect",
+                "query": "tag:#one-liner",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "permanent/Ternary Operator in Powershell.md",
+                "file": "fleeting_notes/Make linked file or dir in linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "permanent/Ternary Operator in Powershell.md",
+                "file": "fleeting_notes/Make linked file or dir in linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "permanent/Ternary Operator in Powershell.md"
+                "file": "fleeting_notes/Make linked file or dir in linux.md"
               }
             }
           }
@@ -156,27 +156,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0fc89086f955fedd",
+  "active": "5386cdad3ff9e7ea",
   "lastOpenFiles": [
-    "permanent/Basic Certificate Example.md",
-    "permanent/eDirectory Install Report Output Example.md",
-    "permanent/Find Junit3 file.md",
-    "reference/dot-notation vs LDAP notation.md",
+    "fleeting_notes/Make linked file or dir in linux.md",
+    "2023-05-30.md",
+    "Untitled.canvas",
     "permanent/Ternary Operator in Powershell.md",
+    "permanent/Install IDM Dependencies Script.md",
+    "permanent/Find Junit3 file.md",
+    "permanent/eDirectory Install Report Output Example.md",
+    "permanent/Basic Certificate Example.md",
+    "templates/Note Template.md",
+    "templates/Defect Template.md",
+    "fleeting_notes/IDM system req's.md",
+    "fleeting_notes/IDM Default install paths.md",
+    "reference/dot-notation vs LDAP notation.md",
+    "reference/My IDM deps script walkthrough.md",
+    "reference/False Negatives from RHEL-Prerequisite.sh script.md",
+    "reference/eDir Error Code -1266.md",
     "reference/testing from the cli with junit3.md",
     "fleeting_notes/IDM Validation.md",
-    "reference/eDir Error Code -1266.md",
     "fleeting_notes/eDirectory LDAP keys.md",
     "reference/Inspect a Certificate from the CLI.md",
     "reference/Java Try with Resources.md",
-    "reference/IDM deps script.md",
-    "reference/False Negatives from RHEL-Prerequisite.sh script.md",
-    "templates/Defect Template.md",
-    "templates/Note Template.md",
     "literature/NetIQ_Migration_Paths.canvas",
-    "fleeting_notes/IDM system req's.md",
     "fleeting_notes/Validate with eDir installs.md",
-    "fleeting_notes/IDM Default install paths.md",
     "media/gum filter.gif",
     "media",
     "fleeting_notes",
@@ -190,9 +194,6 @@
     "Java Try with Resources.md",
     "Templates/Note Template.md",
     "Basic Certificate Example.md",
-    "Validate with eDir installs.md",
-    "False Negatives from RHEL-Prerequisite.sh script.md",
-    "Untitled.md",
     "Templates",
     "Inspect a Certificate from the CLI.pdf"
   ]

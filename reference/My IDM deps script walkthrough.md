@@ -1,6 +1,6 @@
-TL:DR netiq documented script bad, good script at the end of this note. ^7a7671
+TL:DR netiq documented script bad, good script at the end of this note. 
 
-The IDM deps script in the docs loops over all the depeendencies, which is a joke since you can just call all of the dependencies at one time during install. Otherwise yum is going to query the subscription management repos before installing each package (that's probably 15-30 seconds each repo with 16 repos )
+The IDM deps script in the docs loops over all the dependencies, which is a joke since you can just call all of the dependencies at one time during install. Otherwise yum is going to query the subscription management repos before installing each package (that's probably 15-30 seconds each repo with 16 repos )
 
 the script attempts to use a wildard to match multiple packages. beyond improperly searching with a wildcard, they've also included an errant `-` in the search. properly searching (ie `yum search glibc | grep i686`) for these packages returns the following :
 
@@ -22,9 +22,7 @@ gcc-toolset-12-libgccjit.i686 : Library for embedding GCC inside programs and li
 gcc-toolset-12-libgccjit-devel.i686 : Support for embedding GCC inside programs and libraries
 ```
 
-see notes on `RHEL-Prerequisite.sh` for presumed false errors.
-
-
+see notes on [[False Negatives from RHEL-Prerequisite.sh script]] for presumed false errors.
 
 Assuming all this is accurate, then the script should actually look like the following
 
