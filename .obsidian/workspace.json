@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "permanent/eDirectory Install Report Output Example.md",
-                "mode": "source",
+                "file": "permanent/Ternary Operator in Powershell.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "permanent/eDirectory Install Report Output Example.md",
+                "file": "permanent/Ternary Operator in Powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "permanent/eDirectory Install Report Output Example.md",
+                "file": "permanent/Ternary Operator in Powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "permanent/eDirectory Install Report Output Example.md"
+                "file": "permanent/Ternary Operator in Powershell.md"
               }
             }
           }
@@ -158,12 +158,12 @@
   },
   "active": "0fc89086f955fedd",
   "lastOpenFiles": [
-    "permanent/Find Junit3 file.md",
-    "permanent/Ternary Operator in Powershell.md",
-    "reference/testing from the cli with junit3.md",
     "permanent/Basic Certificate Example.md",
     "permanent/eDirectory Install Report Output Example.md",
+    "permanent/Find Junit3 file.md",
     "reference/dot-notation vs LDAP notation.md",
+    "permanent/Ternary Operator in Powershell.md",
+    "reference/testing from the cli with junit3.md",
     "fleeting_notes/IDM Validation.md",
     "reference/eDir Error Code -1266.md",
     "fleeting_notes/eDirectory LDAP keys.md",
