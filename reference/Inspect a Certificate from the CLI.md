@@ -1,6 +1,6 @@
 #certificate #edirectory #cli
 
-Using openssl we can retrieve a [certificate](obsidian://open?vault=TIL&file=Basic%20Certificate%20Example) that is provided in response to an SSL handshake
+Using openssl we can retrieve a certificate (see [[Basic Certificate Example]] ) that is provided in response to an SSL handshake
 ```bash
 openssl s_client -connect 127.0.0.1:1636
 ```
