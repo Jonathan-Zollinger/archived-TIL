@@ -1,4 +1,4 @@
-#certificate #self-signed #edirectory #cli
+#certificate #edirectory #cli
 
 Using openssl we can retrieve a [certificate](obsidian://open?vault=TIL&file=Basic%20Certificate%20Example) that is provided in response to an SSL handshake
 ```bash

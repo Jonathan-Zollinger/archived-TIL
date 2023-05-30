@@ -1,7 +1,6 @@
+#eDirectory 
 
-- Enhanced Background Auth not enabled. 
-- why does `ndscheck` report the server name to be `.CN=idv.O=services.T=FCPS.` but the install reports the edir server with the following output? 
-  ```bash
+```shell
   Tree Name             : fcps
   Server DN             : idv.services
   Admin DN              : admin.services
@@ -16,4 +15,4 @@
   Configuration File    : /etc/opt/novell/eDirectory/conf/nds.conf
   Instance Location     : /var/opt/novell/eDirectory/data
   DIB Location          : /var/opt/novell/eDirectory/data/dib
-  ```
+```
