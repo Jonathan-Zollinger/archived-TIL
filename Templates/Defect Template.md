@@ -44,3 +44,5 @@
 
 
 #### Further Reading
+
+<small><i> Created: {{date}} {{time}} </i></small> #template
