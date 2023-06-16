@@ -4,76 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "38204f10c5ea1e42",
-        "type": "split",
+        "id": "29eb9cedf6cf0c98",
+        "type": "tabs",
         "children": [
           {
-            "id": "29eb9cedf6cf0c98",
-            "type": "tabs",
-            "dimension": 27.173913043478258,
-            "children": [
-              {
-                "id": "279045f59b7598b8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "fleeting_notes/Parsing XML schema output from Apache Directory Studio.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
+            "id": "279045f59b7598b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fleeting_notes/Using Apache Directory Studio to investigate DS schema.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "971146f5ddfd4d9c",
-            "type": "tabs",
-            "dimension": 72.82608695652173,
-            "children": [
-              {
-                "id": "20bc7ff52b680b22",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "C:\\Users\\Jonathan\\go\\src\\github.com\\Jonathan-Zollinger\\TIL",
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "executable": "powershell",
-                        "name": "",
-                        "platforms": {
-                          "win32": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": true,
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {},
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": {
-                        "columns": 183,
-                        "data": "PS C:\\Users\\Jonathan\\go\\src\\github.com\\Jonathan-Zollinger\\TIL>\u001b[1C\u001b[93mgit \u001b[0madd .\\.obsidian\\\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\u001b[91m+ q\u001b[0m     \u001b[31mtemplates/Time Tracking.md\r\n\u001b[91m+ ~\r\n    + CategoryInfo          : ObjectNotFound: (q:String) [], CommandNotFoundException\r\n    + FullyQualifiedErrorId : CommandNotFoundException\r\n\r\n\u001b[0mPS C:\\Users\\Jonathan\\go\\src\\github.com\\Jonathan-Zollinger\\TIL>\u001b[1C\u001b[91m^C\r\n\u001b[0mPS C:\\Users\\Jonathan\\go\\src\\github.com\\Jonathan-Zollinger\\TIL>\u001b[1C\u001b[93mcl\u001b[36A\u001b[18C\u001b[0m",
-                        "rows": 37
-                      }
-                    }
-                  },
-                  "pinned": true
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -147,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "fleeting_notes/Using Apache Directory Studio to investigate DS schema.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "fleeting_notes/Using Apache Directory Studio to investigate DS schema.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "fleeting_notes/Using Apache Directory Studio to investigate DS schema.md"
+              }
             }
           },
           {
@@ -232,8 +183,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "20bc7ff52b680b22",
+  "active": "279045f59b7598b8",
   "lastOpenFiles": [
+    "fleeting_notes/Dev Box Api Call.md",
     "fleeting_notes/Parsing XML schema output from Apache Directory Studio.md",
     "media/Pasted image 20230616114446.png",
     "permanent/SCP a local file to a remote filename.md",
@@ -246,7 +198,6 @@
     "permanent/SCP a local file to a remote directory.md",
     "fleeting_notes/Using Apache Directory Studio to investigate DS schema.md",
     "fleeting_notes/Validate with eDir installs.md",
-    "fleeting_notes/Dev Box Api Call.md",
     "fleeting_notes/Git Messages.md",
     "fleeting_notes/IDM Default install paths.md",
     "fleeting_notes/IDM system req's.md",
