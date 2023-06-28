@@ -6,5 +6,6 @@
   "dataview",
   "obsidian-minimal-settings",
   "obsidian-reminder-plugin",
-  "terminal"
+  "terminal",
+  "open-vscode"
 ]

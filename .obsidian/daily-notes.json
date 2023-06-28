@@ -1,4 +1,4 @@
 {
   "template": "templates/Time Tracking",
-  "autorun": true
+  "autorun": false
 }

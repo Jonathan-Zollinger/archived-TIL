@@ -13,10 +13,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleeting_notes/Parsing XML schema output from Apache Directory Studio.md",
+                "file": "fleeting_notes/JNDI notes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "4ec32ed4a237fb04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "permanent/Ternary Operator in Powershell.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
               }
             }
           }
@@ -78,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5
+    "width": 200
   },
   "right": {
     "id": "532b59b2eb3b1636",
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fleeting_notes/Parsing XML schema output from Apache Directory Studio.md",
+                "file": "fleeting_notes/JNDI notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fleeting_notes/Parsing XML schema output from Apache Directory Studio.md",
+                "file": "fleeting_notes/JNDI notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleeting_notes/Parsing XML schema output from Apache Directory Studio.md"
+                "file": "fleeting_notes/JNDI notes.md"
               }
             }
           },
@@ -180,37 +193,43 @@
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "open-vscode:VSCode": false
     }
   },
   "active": "279045f59b7598b8",
   "lastOpenFiles": [
+    "literature/Secure Transfer Protocol (scp).md",
+    "fleeting_notes/JNDI notes.md",
+    "permanent/Ternary Operator in Powershell.md",
+    "permanent/SCP a local file to a remote directory.md",
+    "reference/defect resolution/LDAP error code 65.md",
+    "reference/defect resolution/eDir Error Code -1266.md",
+    "fleeting_notes/Java Ternary Operator.md",
+    "fleeting_notes/Java 8 Lambdas and Functional Interfaces.md",
+    "fleeting_notes/Java 8 Method References.md",
+    "permanent/eDirectory/default schema/inetOrgPerson.md",
+    "fleeting_notes/Parsing XML schema output from Apache Directory Studio.md",
+    "permanent/Java 8 Predicate.md",
+    "permanent/eDirectory Install Report Output Example.md",
+    "permanent/Install IDM Dependencies Script.md",
+    "permanent/Find Junit3 file.md",
+    "fleeting_notes/IDM Validation.md",
+    "fleeting_notes/LambdaEffectivelyFinal.java",
+    "fleeting_notes/MethodReferenceTypes.java",
+    "fleeting_notes/MethodRefsAndContext.java",
+    "fleeting_notes/Functional Interfaces from Java 8 API.md",
+    "fleeting_notes/Functional Interfaces from Java 8 API.java",
+    "permanent/Java 8 Functional Interface.md",
+    "permanent/MethodRefsAndContext.java",
+    "fleeting_notes/Git Messages.md",
+    "2023-06-20.md",
     "permanent/eDirectory/default schema/Resource.md",
     "permanent/eDirectory/default schema/rbsTask2.md",
     "permanent/eDirectory/default schema/rbsTask.md",
     "permanent/eDirectory/default schema/rbsScope2.md",
     "permanent/eDirectory/default schema/rbsScope.md",
     "permanent/eDirectory/default schema/rbsRole2.md",
-    "permanent/eDirectory/default schema/rbsRole.md",
-    "permanent/eDirectory/default schema/rbsModule2.md",
-    "permanent/eDirectory/default schema/rbsModule.md",
-    "permanent/eDirectory/default schema/rbsExternalScope2.md",
-    "permanent/eDirectory/default schema/rbsExternalScope.md",
-    "permanent/eDirectory/default schema/ndspkiContainer.md",
-    "permanent/eDirectory/default schema/nDSPKICertificateAuthority.md",
-    "permanent/eDirectory/default schema/ndspkiCertificate.md",
-    "permanent/eDirectory/default schema/ndsLoginProperties.md",
-    "permanent/eDirectory/default schema/ndsContainerLoginProperties.md",
-    "permanent/eDirectory/default schema/ncpServer.md",
-    "permanent/eDirectory/default schema/messagingServer.md",
-    "permanent/eDirectory/default schema/messageRoutingGroup.md",
-    "permanent/eDirectory/default schema/mASVSecurityPolicy.md",
-    "permanent/eDirectory/default schema/wANMANLANArea.md",
-    "permanent/eDirectory/default schema/Volume.md",
-    "permanent/eDirectory/default schema/userSecurityInformation.md",
-    "permanent/eDirectory/default schema/Unknown.md",
-    "permanent/eDirectory/default schema/treeRoot.md",
-    "permanent/eDirectory/default schema/Top.md",
     "permanent/eDirectory/default schema",
     "permanent/eDirectory",
     "media/Pasted image 20230616114446.png",
@@ -225,11 +244,6 @@
     "reference/defect resolution",
     "media/gum filter.gif",
     "media",
-    "fleeting_notes",
-    "NetIQ_Migration_Paths.canvas",
-    "templates",
-    "permanent",
-    "reference",
-    "literature"
+    "NetIQ_Migration_Paths.canvas"
   ]
 }
