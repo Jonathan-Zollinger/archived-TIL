@@ -2,7 +2,7 @@ TL:DR netiq documented script bad, good script at the end of this note.
 
 The IDM deps script in the docs loops over all the dependencies, which is a joke since you can just call all of the dependencies at one time during install. Otherwise yum is going to query the subscription management repos before installing each package (that's probably 15-30 seconds each repo with 16 repos )
 
-the script attempts to use a wildard to match multiple packages. beyond improperly searching with a wildcard, they've also included an errant `-` in the search. properly searching (ie `yum search glibc | grep i686`) for these packages returns the following :
+the script attempts to use a wildcard to match multiple packages. beyond improperly searching with a wildcard, they've also included an errant `-` in the search. properly searching (ie `yum search glibc | grep i686`) for these packages returns the following :
 
 ```bash
 ❯ yum search glibc | grep i686

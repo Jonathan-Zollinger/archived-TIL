@@ -5,6 +5,6 @@ eDirectory's `ndscheck` reports a DN to be `CN=idv.O=services.T=FCPS`, but eDire
 
 #### References
 
-<a id="reference-1">1.</a> [[eDirectory Install Report Output Example]]
+<a id="reference-1">1.</a> ![[eDirectory Install Report Output Example]]
 
 

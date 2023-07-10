@@ -20,7 +20,6 @@ https://docs.oracle.com/javase/jndi/tutorial/
 
 get all object class definitions for an entry. 
 
-eDirectory does not support `getSchemaClassDefinition`!
 
 
 ```java
@@ -58,4 +57,43 @@ NamingEnumeration<SearchResult> searchResults = context
 ```
 
 
+----
 
+I believe you can change the returned type of DirContext.SearchResult(). 
+https://docs.oracle.com/javase/8/docs/api/javax/naming/directory/SearchControls.html#setReturningAttributes-java.lang.String:A-
+```java
+SearchControls ctls = new SearchControls();
+ctls.setReturningObjFlag(true);
+
+// Specify the search filter to match any object
+String filter = "(objectclass=*)";
+
+// Search for objects by using the filter
+NamingEnumeration answer = ctx.search("", filter, ctls);
+```
+
+#### [Quick Overview of Search Filter Syntax](https://docs.oracle.com/javase/jndi/tutorial/basics/directory/filter.html)
+
+The search filter syntax is basically a logical expression in prefix notation (that is, the logical operator appears before its arguments). The following table lists the symbols used for creating filters.
+
+| Symbol | Description                                                                                                             |
+| ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| &      | conjunction (i.e., _and_ -- all in list must be true)                                                                   |
+| \|     | disjunction (i.e., _or_ -- one or more alternatives must be true)                                                       |
+| !      | negation (i.e., _not_ -- the item being negated must not be true)                                                       |
+| =      | equality (according to the matching rule of the attribute)                                                              |
+| ~=     | approximate equality (according to the matching rule of the attribute)                                                  |
+| >=     | greater than (according to the matching rule of the attribute)                                                          |
+| <=     | less than (according to the matching rule of the attribute)                                                             |
+| =*     | presence (i.e., the entry must have the attribute but its value is irrelevant)                                          |
+| *      | wildcard (indicates zero or more characters can occur in that position); used when specifying attribute values to match |
+| \      | escape (for escaping '*', '(', or ')' when they occur inside an attribute value)                                        |
+
+---
+```java
+// Get the schema tree root
+DirContext schema = ctx.getSchema("");
+
+// Get the schema object for "cn"
+DirContext cnSchema = (DirContext)schema.lookup("AttributeDefinition/cn");
+```
