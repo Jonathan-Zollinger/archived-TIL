@@ -1,6 +1,9 @@
 {
-  "accentColor": "#6b97ef",
+  "accentColor": "#6bef8c",
   "theme": "obsidian",
-  "cssTheme": "Minimal",
-  "translucency": false
+  "cssTheme": "Catppuccin",
+  "translucency": false,
+  "interfaceFontFamily": "FiraCode Nerd Font,Fira Code,Cascadia Code",
+  "textFontFamily": "FiraCode Nerd Font,Fira Code,Cascadia Code",
+  "monospaceFontFamily": "Cascadia Mono"
 }
