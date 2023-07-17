@@ -1,0 +1,109 @@
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<!--NewPage-->
+<html>
+<head>
+<title>Ignoring Referrals</title>
+</head>
+<body BGCOLOR="#ffffff">
+<table width="100%">
+<tr>
+<td align=left>
+<a href="jndi.html"><img src="../../images/PreviousArrow.gif" width=26 height=26 align=bottom border=0 alt="Previous | "></a><a
+href="follow.html"><img src="../../images/NextArrow.gif" width=26 height=26 align=bottom border=0 alt="Next | "></a><a
+href="../../trailmap.html"><img src="../../images/WayUpArrow.gif" width=26 height=26 align=bottom border=0 alt="Trail Map | "></a><a
+href="../index.html"><img src="../../jndiimages/ldapHeader.gif" width=26 height=26 align=bottom border=0 alt="Tips for LDAP Users | "></a>
+</td>
+<td align=right>
+<a href="index.html"><strong><em>Referrals</em></strong></a>
+</td>
+</tr>
+</table>
+<P ALIGN="CENTER">
+<IMG SRC="../../jndiimages/shoeline2.GIF" ALIGN="BOTTOM" BORDER="0" WIDTH="202"
+    HEIGHT="25" NATURALSIZEFLAG="3">
+<IMG SRC="../../jndiimages/shoeline2.GIF" ALIGN="BOTTOM" BORDER="0" WIDTH="202"
+    HEIGHT="25" NATURALSIZEFLAG="3">
+</P>
+
+<h2>
+    Ignoring Referrals
+</h2>
+<p>
+<blockquote>
+
+If you set the
+<a target="_top" href="http://java.sun.com/j2se/1.3/docs/api/javax/naming/Context.html#REFERRAL"><tt>Context.REFERRAL</tt></a><a target="_top" href="http://java.sun.com/j2se/1.3/docs/api/javax/naming/Context.html#REFERRAL"><img src="../../images/apiIcon.gif" width=20 height=20 border=0 alt="(in the API reference documentation)"></a>   environment property to <tt>"ignore"</tt>, then any referral entries
+in the directory will be ignored and returned as plain entries.
+The LDAP provider will automatically send a
+<a href=jndi.html#MANAGE>Manage Referral</a> control
+with the request for LDAP v3, 
+telling the LDAP server to return the referral entries as plain LDAP entries.
+If the LDAP v2 is being used, then no control is sent.
+<p>
+Here's an example.
+<blockquote><pre>
+// Set the referral property; this is optional
+// because "ignore" is the default
+env.put(Context.REFERRAL, "ignore");
+
+// Create the initial context
+DirContext ctx = new InitialDirContext(env);
+
+// Set the controls for performing a subtree search
+SearchControls ctls = new SearchControls();
+ctls.setSearchScope(SearchControls.SUBTREE_SCOPE);
+
+// Perform the search
+NamingEnumeration answer = ctx.search("", "(objectclass=*)", ctls);
+</pre></blockquote>
+
+Here is the output from running 
+<a href=src/Ignore.java>this example</a>. 
+<blockquote><pre>
+&gt;&gt;&gt;
+&gt;&gt;&gt;ou=People
+&gt;&gt;&gt;ou=All
+&gt;&gt;&gt;ou=People, ou=All
+&gt;&gt;&gt;ou=NewHires, ou=All
+</pre></blockquote>
+<p>
+Notice that the entries <tt>"ou=People"</tt>, 
+<tt>"ou=People, ou=All"</tt>,
+and <tt>"ou=NewHires, ou=All"</tt> are returned as plain entries rather than as referrals.
+
+<h4>Servers That Don't Support the Manage Referral Control</h4>
+A server that does not support the Manage Referral control
+will ignore the control and send back referrals as it encounters them.
+In this case, when the LDAP provider receives the referral, it will throw a 
+<a target="_top" href="http://java.sun.com/j2se/1.3/docs/api/javax/naming/PartialResultException.html"><tt>PartialResultException</tt></a><a target="_top" href="http://java.sun.com/j2se/1.3/docs/api/javax/naming/PartialResultException.html"><img src="../../images/apiIcon.gif" width=20 height=20 border=0 alt="(in the API reference documentation)"></a>    to indicate that there might be more results if the referral is followed.
+
+</blockquote>
+<p>
+<hr size=4>
+<p> 
+<table width="100%">
+<tr>
+<td align=left>
+<a href="jndi.html"><img src="../../images/PreviousArrow.gif" width=26 height=26 align=top border=0 alt="Previous | "></a><a
+href="follow.html"><img src="../../images/NextArrow.gif" width=26 height=26 align=top border=0 alt="Next | "></a><a
+href="../../trailmap.html"><img src="../../images/WayUpArrow.gif" width=26 height=26 align=top border=0 alt="Trail Map | "></a><a
+href="../index.html"><img src="../../jndiimages/ldapHeader.gif" width=26 height=26 align=top border=0 alt="Tips for LDAP Users | "></a>
+</td>
+<td align=right>
+<a href="index.html"><strong><em>Referrals</em></strong></a>
+</td>
+</tr>
+</table>
+</body>
+</html>

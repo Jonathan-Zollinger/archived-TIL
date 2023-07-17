@@ -1,0 +1,19 @@
+keystore ".keystore";
+
+// Permissions for using RMI
+grant {
+        permission java.net.SocketPermission "WEBSERVER", "connect,accept";
+        permission java.net.SocketPermission "RMISERVER", "connect,accept";
+        permission java.net.SocketPermission "localhost", "connect,accept";
+};
+
+// Only necessary if the JNDI jars have NOT been installed
+// in ${java.home}/lib/ext
+// Set ${jndi.home} to location of JNDI jars when running the program:
+// e.g., -Djndi.home=/export/home/jndi
+//
+grant codeBase "file:${jndi.home}/lib/*" {
+	permission java.util.PropertyPermission "java.naming.*", "read";
+	permission java.lang.RuntimePermission "getClassLoader";
+	permission java.io.FilePermission "${jndi.home}${/}lib${/}*", "read";
+};

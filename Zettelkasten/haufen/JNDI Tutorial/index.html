@@ -1,0 +1,174 @@
+
+
+
+
+
+
+
+
+
+
+
+<HTML>
+<HEAD>
+
+  <TITLE>The JNDI Tutorial</TITLE>
+
+</HEAD>
+
+<BODY BGCOLOR="#ffffff" BACKGROUND="./jndiimages/background.gif" LINK="#0090">
+
+<TABLE WIDTH="647" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR>
+    <TD WIDTH="22%">
+    <FONT SIZE="-2">
+    Last updated on Nov 1, 2002</FONT></TD>
+    <TD WIDTH="78%" VALIGN="TOP">
+    <FONT COLOR="#999999">&nbsp;</FONT><FONT COLOR="#999999" SIZE="-1">If
+    you aren't viewing this on </FONT><FONT SIZE="-1"><A HREF="http://java.sun.com/products/jndi/tutorial/">java.sun.com</A></FONT><FONT
+     COLOR="#999999" SIZE="-1">, you might be looking at an obsolete
+    copy.<BR>
+    &nbsp;&nbsp;</FONT></TD> 
+  </TR>
+</TABLE><TABLE BORDER="0" CELLSPACING="0" CELLPADDING="2" WIDTH="653">
+  <TR>
+    <TD WIDTH="193" ROWSPAN="2">
+    <P ALIGN=RIGHT><IMG SRC="./jndiimages/duke.gif" WIDTH="75" HEIGHT="100"
+    ALIGN="BOTTOM" BORDER="0" NATURALSIZEFLAG="3"></TD> 
+    <TD ROWSPAN="2" WIDTH="459">
+    <P><CENTER>
+	<font size=+5><b>The JNDI Tutorial</b></font>
+	</CENTER></P>
+	<p><center>
+    <FONT COLOR="#0090" SIZE="+1" FACE="Arial, Helvetica">Building
+    Directory-Enabled Java Applications</FONT></center></p>
+   <p> <center>
+   <em>by Rosanna Lee</em>
+   </center></p>
+
+<P ALIGN="CENTER">
+<IMG SRC="./jndiimages/shoeline2.GIF" ALIGN="BOTTOM" BORDER="0" WIDTH="202"
+    HEIGHT="25" NATURALSIZEFLAG="3">
+<IMG SRC="./jndiimages/shoeline2.GIF" ALIGN="BOTTOM" BORDER="0" WIDTH="202"
+    HEIGHT="25" NATURALSIZEFLAG="3">
+</P>
+
+</TD>
+  </TR>
+  <TR>
+  </TR>
+</TABLE>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="650">
+  <TR>
+    <TD VALIGN="TOP" WIDTH="122">
+
+    <P><CENTER><HR ALIGN=LEFT><B><FONT COLOR="#ffffff" FACE="Arial, Helvetica">The JNDI
+    API Tutorial<br>and Reference</FONT></B></CENTER></P>
+
+    <P><CENTER><IMG SRC="jndiimages/bookcover.gif" ALIGN="TOP" 
+    BORDER="0" ALT="JNDI Book" WIDTH="83" HEIGHT="88" NATURALSIZEFLAG="3"><BR>
+    </CENTER></P>
+
+    <P><CENTER><FONT  COLOR="#ffffff" SIZE="-1">Order it today from <A HREF="http://www.amazon.com/exec/obidos/ISBN%3D0201705028/javasoftsunmicroA/">Amazon.com</A>.</FONT></CENTER></P>
+
+    <P><CENTER><FONT  COLOR="#ffffff" SIZE="-1">To find other books <BR>
+    from the Java Software<BR>
+    team, see<BR>
+    <A HREF="http://java.sun.com/docs/books/">The Java Series</A>.</FONT></CENTER></P>
+
+    <P>&nbsp;</P>
+    <P><IMG SRC="./jndiimages/shoes3b.GIF" ALIGN="BOTTOM" BORDER="0" WIDTH="104"
+    HEIGHT="26" NATURALSIZEFLAG="3"></TD> 
+    <TD>
+    <P><CENTER><FONT COLOR="#000000" SIZE="-1">
+
+<br>
+<br>
+<blockquote>
+This is the online version of
+the <b><em>The JNDI Tutorial</em></b>.
+It is modeled after 
+<a href="http://java.sun.com/docs/books/tutorial/">
+<b><em>The Java Tutorial</em></b></a>
+by Mary Campione and Kathy Walrath.
+It is organized into  </FONT><EM><FONT COLOR="#0090" SIZE="-1">trails</FONT></EM><FONT
+     COLOR="#000000" SIZE="-1"> --
+groups of lessons on a particular subject.
+If you've never used the Java Tutorial or this tutorial before,
+you can read a quick note describing 
+<a href=information/aboutThisDoc.html>how to use this tutorial</a>.
+</blockquote>
+</CENTER></FONT>
+
+    <P><CENTER><TABLE BORDER="0" WIDTH="93%" CELLSPACING="2" CELLPADDING="6">
+      <TR>
+        <TD WIDTH="99">
+        <P ALIGN=RIGHT><B><FONT FACE="Arial, Helvetica"><A HREF="trailmap.html">Trail
+        Map</A></FONT></B></TD> 
+        <TD WIDTH="554">
+        A list of trails and the lessons within them.</TD> 
+      </TR>
+
+	<tr>
+        <TD WIDTH="99">
+        <P ALIGN=RIGHT><B><FONT FACE="Arial, Helvetica"><A HREF="TOC.html">Contents</A></FONT></B></TD> 
+        <TD WIDTH="554">
+	Scan the master table of contents
+	to get an overview of every trail.
+	</td>
+	</tr>
+
+      <TR>
+        <TD ALIGN="RIGHT" WIDTH="99">
+        <B><FONT FACE="Arial, Helvetica"><A HREF="information/download.html">Download</A></FONT></B></TD> 
+        <TD WIDTH="554">
+        Feel free to download the tutorial and make it available on a
+        local network. <EM>Please do <B>not</B> publicly mirror it to
+        the Web.
+	</EM>
+	If you find a public mirror, please
+	<A HREF="mailto:jndi-book@java.sun.com">send us the URL.</A></TD> 
+      </TR>
+
+      <TR>
+        <TD ALIGN="RIGHT" WIDTH="99">
+        <B><FONT FACE="Arial, Helvetica">
+	<A HREF="mailto:jndi-book@java.sun.com">Feedback</A></FONT></B></TD> 
+        <TD WIDTH="554">
+Our goal is to keep this tutorial as up-to-date as possible
+with the latest releases of JNDI-related software.
+If you find an error or some details lacking in the tutorial, please 
+<a href="mailto:jndi-book@java.sun.com">mail us</a>
+the relevant information. We will try to incorporate
+fixes to the errors in the next release of the tutorial.
+</TD> 
+      </TR>
+
+    </TABLE></CENTER></P>
+
+    <TABLE WIDTH="532" BORDER="0" CELLSPACING="2" CELLPADDING="0"
+    HEIGHT="126">
+      <TR>
+        <TD WIDTH="30" HEIGHT="121"></TD>
+        <TD WIDTH="429" HEIGHT="121">
+        <P><FONT COLOR="#000000" SIZE="-1">This tutorial reflects the version
+	of the JNDI and the LDAP service provider that are in the
+	<a href=http://java.sun.com/j2se/1.4.2>Java 2 SDK, Standard Edition, v 1.4.2</a>, and
+        version 1.2 beta 3 of the File System service provider.
+	</FONT></P>
+
+        <P><FONT SIZE="-1">All of the material in <b><EM>The JNDI Tutorial</EM></b>
+        is <A HREF="information/copyright.html">copyright</A>-protected
+        and may not be published in other works without express written
+        permission from Sun Microsystems.</FONT></TD> 
+        <TD WIDTH="64" HEIGHT="121">
+        &nbsp;<IMG SRC="./images/javalogo52x88.gif" ALIGN="BOTTOM" BORDER="0"
+        WIDTH="52" HEIGHT="88" NATURALSIZEFLAG="3"></TD> 
+      </TR>
+    </TABLE></TD>
+  </TR>
+</TABLE>
+
+</BODY>
+</HTML>
