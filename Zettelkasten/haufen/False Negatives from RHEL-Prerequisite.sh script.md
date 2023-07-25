@@ -16,4 +16,4 @@ Error:
 ```
 
 gum filter is a handy tool for validating packages manually. 
-![[gum filter.gif]]
+![[Zettelkasten/media/gum filter.gif]]

@@ -1,4 +1,4 @@
-
+eDir schema -> https://datatracker.ietf.org/doc/html/draft-sermersheim-nds-ldap-schema
 passing a blank string to the `getschema` method retrieves the root object schema
 `Dircontext.getSchema("")`
 
