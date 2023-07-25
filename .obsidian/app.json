@@ -1,4 +1,14 @@
 {
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false,
+  "focusNewTab": false,
+  "showLineNumber": true,
+  "autoPairMarkdown": false,
+  "autoPairBrackets": false,
+  "livePreview": false,
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "newLinkFormat": "absolute",
+  "attachmentFolderPath": "Zettelkasten/zettels/media"
 }

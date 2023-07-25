@@ -1,23 +1,18 @@
 {
   "main": {
-    "id": "17d80c7723a75e02",
+    "id": "873683f08517249d",
     "type": "split",
     "children": [
       {
-        "id": "23349b4157151e13",
+        "id": "37cbc39bea43a211",
         "type": "tabs",
         "children": [
           {
-            "id": "983ead1660a4756c",
+            "id": "4f44ac10a48859c0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/haufen/Git.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -26,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "89374583af26f013",
+    "id": "ca86adede34b6537",
     "type": "split",
     "children": [
       {
-        "id": "6b2c632b84f73edf",
+        "id": "2c3e0b033f736e06",
         "type": "tabs",
         "children": [
           {
-            "id": "49e9879c7fbe056e",
+            "id": "2016640ce856b04a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,22 +39,30 @@
             }
           },
           {
-            "id": "997436b4f50c70af",
+            "id": "c619e096770c0ce5",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bipredicate",
                 "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "0b837991fcac48a6",
+            "id": "75041cec91196115",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "625078ffab72fb96",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -70,23 +73,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 334
   },
   "right": {
-    "id": "712d85cea37d73bd",
+    "id": "532b59b2eb3b1636",
     "type": "split",
     "children": [
       {
-        "id": "50d106b8800e85a5",
+        "id": "ac4f7dfd3ba817d5",
         "type": "tabs",
         "children": [
           {
-            "id": "443193b096a6d885",
+            "id": "127d6e7608cae88f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/haufen/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,19 +100,18 @@
             }
           },
           {
-            "id": "af72115d3389f5fe",
+            "id": "48d0ede9ae0ba7b0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/haufen/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "2ec645d04bf50994",
+            "id": "3c419ff4e1609e4f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,17 +122,15 @@
             }
           },
           {
-            "id": "8be8709113618c30",
+            "id": "93526d8fe68e3895",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Zettelkasten/haufen/Git.md"
-              }
+              "state": {}
             }
           },
           {
-            "id": "401949e8e61c314a",
+            "id": "9975f44d44e37a79",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -139,14 +138,23 @@
             }
           },
           {
-            "id": "907304c88ccb944b",
+            "id": "07777e96e59cfc30",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
               "state": {}
             }
+          },
+          {
+            "id": "a6d09f9167492fff",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -155,66 +163,69 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "terminal:Open terminal": false,
-      "open-vscode:VSCode": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "terminal:Open terminal": false,
+      "open-vscode:VSCode": false
     }
   },
-  "active": "983ead1660a4756c",
+  "active": "4f44ac10a48859c0",
   "lastOpenFiles": [
-    "Zettelkasten/zettels/Java/JNDI Tutorial/aboutThisDoc.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/copyright.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/download.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/MissingPage.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/glossary.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/naming.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/directory.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/java.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/runtime.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/compile.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/browser.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/advanced.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/optional.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/essential.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/env.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/threads.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/params.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/list.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/misc.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/parser.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/morenames.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/referral.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/bundle.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/resolver.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/factory.md",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/extend.md",
-    "Zettelkasten/haufen/html2text.sh",
-    "Zettelkasten/media/Adding_homeInfo_aux_class(and_home_city_attribute).gif",
-    "Zettelkasten/media/gum filter.gif",
-    "Zettelkasten/media/ApacheDirectoryStudio/ViewingSchemaBrowser_ApacheDirStudio.gif",
-    "Zettelkasten/media/ApacheDirectoryStudio/SchemaBrowser_homeCityAttr.png.png",
-    "Zettelkasten/media/IntelliJIDEA_ReferenceCard.pdf",
-    "fleeting_notes/MethodReferenceTypes.java",
+    "Zettelkasten/haufen/Git.md",
+    "Zettelkasten/zettels/Java/JNDI/Query the Root Schema.md",
+    "Zettelkasten/zettels/Java/JNDI/Query Object Class Definition from eDirectory.md",
+    "Zettelkasten/zettels/Java/JNDI/Query Attribute Definition from eDirectory.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Query Schema Definition for an LDAP object.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Attribute Synonym.md",
+    "Zettelkasten/zettels/Java/JNDI/find what you can query with jndi 'lookup'.mp4",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/url/src/tut/foo/fooURLContextFactory.java",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/url/src/tut/foo/fooURLContext.java",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/url/src/tut/bar/barURLContextFactory.java",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/fed/src/tut/foo/fooURLContext.java",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/url/src/tut/bar/barURLContext.java",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/fed/src/tut/foo/fooURLContextFactory.java",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/url/src/tut/InitialBarContext.java",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/url/src/tut/HierCtx.java",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/url/src/tut/HierParser.java",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/figures/jndi/getStarted/jndiarch.jpg",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/url/TOC.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/url/reference.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/url/initctx.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/url/index.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/url/factory.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/url/dircontext.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/url/env.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/url/context.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/overview/TOC.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/provider/basics/initial.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/objects/storing/index.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/objects/storing/dircontext.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/objects/storing/corba.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/objects/state/TOC.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/objects/reading/list.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/objects/reading/index.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/objects/factory/uses.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/objects/factory/reference.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/objects/factory/TOC.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/objects/factory/provider.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/jndiimages/shoes3b.GIF",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/jndiimages/shoeline2.GIF",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/jndiimages/schema.gif",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/jndiimages/resolver.gif",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/jndiimages/referral.jpeg",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/jndiimages/providerTrail.gif",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/jndiimages/providerIcon.gif",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/jndiimages/providerHeader.gif",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Tutorial/jndiimages/objectsTrail.gif",
     "literature/NetIQ_Migration_Paths.canvas",
-    "fleeting_notes/LambdaEffectivelyFinal.java",
-    "fleeting_notes/MethodRefsAndContext.java",
-    "permanent/eDirectory/default schema",
-    "reference/defect resolution",
-    "Zettelkasten/media/ApacheDirectoryStudio",
-    "permanent/PowerShell",
-    "permanent/eDirectory",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/figures/jndi/getStarted/jndiarch.jpg",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/jndiimages/bookcover.gif",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/images/steam.gif",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/jndiimages/referral.jpeg",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/jndiimages/alias.jpeg",
-    "Zettelkasten/zettels/Java/JNDI Tutorial/jndiimages/dukeTrail.gif",
-    "Zettelkasten/kastens/NetIQ_Migration_Paths.canvas"
+    "Untitled.canvas",
+    "Zettelkasten/kastens/NetIQ_Migration_Paths.canvas",
+    "Untitled 1.canvas",
+    "NetIQ_Migration_Paths.canvas"
   ]
 }

@@ -185,5 +185,10 @@ context.search("", "(objectclass=*)", searchControls)
 | uint32string      | A numeric string with an upper bound of 429467295                                                                   |
 
 
+### Directory Syntax Notes
 
+https://datatracker.ietf.org/doc/html/draft-sermersheim-nds-ldap-schema
 
+![sermersheim-nds-ldap-schema-03](sermersheim-nds-ldap-schema-03.md)
+
+[[media
