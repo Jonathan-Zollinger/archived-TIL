@@ -4,23 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "0b9508576ee9a901",
+        "id": "14b7e589810edc6d",
         "type": "tabs",
         "children": [
           {
-            "id": "8403562f37aa0cb0",
+            "id": "a9b73826a1bafafa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "permanent/My Spending Record.md",
+                "file": "Zettelkasten/zettels/Java/Micronaut/micronaut-jdbc-hikari.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4b061e2b1885dcb",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/zettels/Java/Micronaut/Micronaut-Data.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "714bb75dd72a770d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/haufen/Micronaut Notes.md",
                 "mode": "preview",
-                "backlinks": false,
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "632467f45bc2ed51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/haufen/Spock.md",
+                "mode": "preview",
+                "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -49,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#html",
+                "query": "powershell",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "permanent/My Spending Record.md",
+                "file": "Zettelkasten/haufen/Spock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "permanent/My Spending Record.md",
+                "file": "Zettelkasten/haufen/Spock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,69 +170,136 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "permanent/My Spending Record.md"
+                "file": "Zettelkasten/haufen/Spock.md"
               }
+            }
+          },
+          {
+            "id": "bddbcd5019329c51",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1ca8e77dfc2eb333",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          },
+          {
+            "id": "145f3fbe0ff0baf6",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          },
+          {
+            "id": "29fe66cd2299bd0b",
+            "type": "leaf",
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
+            }
+          },
+          {
+            "id": "301b5a77e7c8c444",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "e356332861c6fe7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f4dd8350aaddc8b",
+            "type": "leaf",
+            "state": {
+              "type": "map-of-content",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "3d-graph:3D Graph": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "open-vscode:VSCode": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "map-of-content:Update Map of Content": false
     }
   },
-  "active": "8403562f37aa0cb0",
+  "active": "632467f45bc2ed51",
   "lastOpenFiles": [
-    "permanent/HTML Marquee examples.md",
-    "permanent/Find Junit3 file.md",
-    "permanent/Planets data.md",
-    "permanent/My Spending Record.md",
-    "fleeting_notes/html styling.md",
-    "reference/JNDI Cheat Sheet.md",
-    "permanent/Java/Query Object Class Definition from eDirectory.md",
-    "permanent/Java/Query the Root Schema.md",
-    "permanent/Java/Query Attribute Definition from eDirectory.md",
-    "permanent/Java/JNDI Query Schema Definition for an LDAP object.md",
-    "fleeting_notes/JNDI notes.md",
-    "permanent/Bash/SCP a remote file to a local file.md",
-    "permanent/Bash/SCP a local file to a remote directory.md",
-    "reference/Secure Transfer Protocol (scp).md",
-    "reference/My IDM deps script walkthrough.md",
-    "reference/What a Reference Note is (and isn't).md",
-    "permanent/eDirectory/Install IDM Dependencies Script.md",
-    "permanent/Java/testing from the cli with junit3.md",
-    "permanent/What a Permanent Note is (and isn't).md",
-    "permanent/PowerShell/Ternary Operator in Powershell.md",
-    "permanent/Bash/SCP multiple local files to a remote directory.md",
-    "permanent/Bash/SCP a local file to a remote filename.md",
-    "permanent/Java/Java 8 Functional Interface.md",
-    "permanent/Java/Java 8 Predicate.md",
-    "permanent/Bash",
-    "permanent/PowerShell",
-    "permanent/eDirectory/Basic Certificate Example.md",
-    "permanent/Java",
-    "permanent/eDirectory/eDirectory Install Report Output Example.md",
-    "media/Adding_homeInfo_aux_class(and_home_city_attribute).gif",
-    "media/gum filter.gif",
-    "media/ApacheDirectoryStudio/ViewingSchemaBrowser_ApacheDirStudio.gif",
-    "media/ApacheDirectoryStudio/SchemaBrowser_homeCityAttr.png.png",
-    "literature/NetIQ_Migration_Paths.canvas",
-    "permanent/eDirectory/default schema",
-    "media/ApacheDirectoryStudio",
-    "reference/defect resolution",
-    "permanent/eDirectory",
+    "Zettelkasten/haufen/Micronaut Notes.md",
+    "Zettelkasten/haufen/Spock 1.md",
+    "Zettelkasten/haufen/Spock.md",
+    "Zettelkasten/haufen/Spock Testing.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Query Schema Definition for an LDAP object.md",
+    "Zettelkasten/haufen/Markdown.md",
+    "Zettelkasten/haufen/html styling.md",
+    "Zettelkasten/haufen/Test Containers, Micronaut.md",
+    "Zettelkasten/zettels/Java/testing from the cli with junit3.md",
+    "Zettelkasten/haufen/Javadoc.md",
+    "Zettelkasten/zettels/Java/Micronaut/micronaut-jdbc-hikari.md",
+    "Zettelkasten/zettels/Java/Micronaut/Micronaut-Data.md",
+    "Zettelkasten/zettels/Java/JNDI/JNDI Attribute Synonym.md",
+    "Zettelkasten/zettels/Java/JNDI/find what you can query with jndi 'lookup'.mp4",
+    "Zettelkasten/zettels/Java/JNDI/Dircontext.getSchema().lookup(Classdefinition;...).png",
+    "Zettelkasten/zettels/Remove default git merge commit.md",
+    "Zettelkasten/zettels/README.md",
+    "Zettelkasten/zettels/media/gum filter.gif",
+    "Zettelkasten/zettels/LDAP/rfc2596.md",
+    "GraalVM.md",
+    "Zettelkasten/zettels/Git/Git Commit Structure.md",
+    "Zettelkasten/zettels/Java/Find Junit3 file.md",
+    "Zettelkasten/zettels/Java/Micronaut",
+    "Zettelkasten/zettels/Java/Java 8 Predicate.md",
+    "Zettelkasten/zettels/Java/Java Ternary Operator.md",
+    "Zettelkasten/haufen/JNDI notes.md",
+    "Zettelkasten/haufen/Java XSS (excel, microsoft, etc).md",
+    "Spock Testing.png",
+    "Zettelkasten/haufen/SHA & Encryption.md",
+    "Zettelkasten/zettels/PowerShell/Validate Path Parameter in Function.md",
+    "Zettelkasten/zettels/PowerShell/Ternary Operator in Powershell.md",
+    "Pasted image 20231206105544.png",
+    "Blocks2Phases.png",
+    "Zettelkasten/kastens/NetIQ_Migration_Paths.canvas",
+    "TargetAPI-master.zip",
+    "PXL_20230801_053401437.MP.jpg",
+    "PXL_20230801_053308668.MP.jpg",
+    "fleeting_notes/JNDI Tutorial/images/NextArrow.gif",
+    "fleeting_notes/JNDI Tutorial/images/dim_PreviousArrow.gif",
+    "fleeting_notes/JNDI Tutorial/images/UpArrow.gif",
+    "fleeting_notes/JNDI Tutorial/images",
+    "fleeting_notes/JNDI Tutorial",
     "fleeting_notes",
-    "literature",
-    "reference"
+    "Task master",
+    "Zettelkasten/zettels/Git",
+    "Zettelkasten/html2text.sh",
+    "Zettelkasten/haufen/html2text.sh",
+    "literature/NetIQ_Migration_Paths.canvas"
   ]
 }

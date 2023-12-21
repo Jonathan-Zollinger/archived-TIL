@@ -1,0 +1,2 @@
+- [Example on formatting javadoc code examples](https://reflectoring.io/howto-format-code-snippets-in-javadoc/) (ie `{@code ...} vs <pre>, etc`)
+- [distinguish `@see`, `@link` and `<href>`](https://www.baeldung.com/javadoc-see-vs-link)

@@ -8,11 +8,11 @@
   "outgoing-link": true,
   "tag-pane": true,
   "page-preview": true,
-  "daily-notes": true,
+  "daily-notes": false,
   "templates": true,
   "note-composer": true,
   "command-palette": true,
-  "slash-command": false,
+  "slash-command": true,
   "editor-status": true,
   "bookmarks": true,
   "markdown-importer": false,
@@ -25,5 +25,7 @@
   "workspaces": false,
   "file-recovery": true,
   "publish": false,
-  "sync": true
+  "sync": true,
+  "starred": true,
+  "properties": true
 }
